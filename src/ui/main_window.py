@@ -19,7 +19,7 @@ from src.ui.optimize_page import OptimizePage
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("??????????")
+        self.setWindowTitle("错题自动分类管理系统")
         self.resize(1200, 800)
         self.dark_mode = False
         try:
@@ -52,7 +52,7 @@ class MainWindow(QMainWindow):
         nl = QVBoxLayout(nav)
         nl.setContentsMargins(0, 0, 0, 0)
         nl.setSpacing(0)
-        t = QLabel("????")
+        t = QLabel("错题系统")
         t.setObjectName("navTitle")
         t.setAlignment(Qt.AlignCenter)
         t.setFixedHeight(80)

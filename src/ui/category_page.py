@@ -147,7 +147,7 @@ class CategoryPage(QWidget):
         """删除选中分类"""
         if self.current_cat_idx < 0 or not self.current_data:
             return
-        reply = QMessageBox.question(self, "????", "??????????????????", QMessageBox.Yes | QMessageBox.No, QMessageBox.No)
+        reply = QMessageBox.question(self, "确认删除", "确定要删除该分类吗?此操作不可撤销。", QMessageBox.Yes | QMessageBox.No, QMessageBox.No)
         if reply != QMessageBox.Yes:
             return
         cats = self.current_data["categories"]
@@ -166,7 +166,7 @@ class CategoryPage(QWidget):
         """保存当前编辑的分类"""
         if self.current_cat_idx < 0 or not self.current_data:
             return
-        reply = QMessageBox.question(self, "????", "??????????????????", QMessageBox.Yes | QMessageBox.No, QMessageBox.No)
+        reply = QMessageBox.question(self, "确认删除", "确定要删除该分类吗?此操作不可撤销。", QMessageBox.Yes | QMessageBox.No, QMessageBox.No)
         if reply != QMessageBox.Yes:
             return
         cats = self.current_data["categories"]

@@ -60,13 +60,13 @@ class MainWindow(QMainWindow):
         nl.addWidget(t)
 
         self.nav = QListWidget()
-        self.nav.addItems([" 1. Import", " 2. Manage", " 3. Classify", " 4. Optimize", " 5. Export"])
+        self.nav.addItems(["  导入","管理","分类","优化","导出"])
         self.nav.setCurrentRow(0)
         self.nav.currentRowChanged.connect(self._switch_page)
         nl.addWidget(self.nav)
         nl.addStretch()
 
-        self.theme_btn = QPushButton(" Theme")
+        self.theme_btn = QPushButton(" ??")
         self.theme_btn.clicked.connect(self._toggle_theme)
         nl.addWidget(self.theme_btn)
         v = QLabel("v1.0.0")
@@ -89,27 +89,27 @@ class MainWindow(QMainWindow):
         ap.setFixedWidth(160)
         al = QVBoxLayout(ap)
         al.setContentsMargins(8, 16, 8, 16)
-        at = QLabel("Quick Actions")
+        at = QLabel("????")
         at.setObjectName("actionTitle")
         at.setAlignment(Qt.AlignCenter)
         al.addWidget(at)
         al.addSpacing(10)
         def go(i): return lambda: self.nav.setCurrentRow(i)
-        b1 = QPushButton("Import"); b1.clicked.connect(go(0)); al.addWidget(b1)
-        b2 = QPushButton("Classify"); b2.setStyleSheet("background-color: #27ae60; color: white;"); b2.clicked.connect(go(2)); al.addWidget(b2)
-        b3 = QPushButton("Correct"); b3.setStyleSheet("background-color: #e67e22; color: white;"); b3.clicked.connect(go(3)); al.addWidget(b3)
-        b4 = QPushButton("Export"); b4.clicked.connect(go(4)); al.addWidget(b4)
+        b1 = QPushButton("??"); b1.clicked.connect(go(0)); al.addWidget(b1)
+        b2 = QPushButton("??"); b2.setStyleSheet("background-color: #27ae60; color: white;"); b2.clicked.connect(go(2)); al.addWidget(b2)
+        b3 = QPushButton("??"); b3.setStyleSheet("background-color: #e67e22; color: white;"); b3.clicked.connect(go(3)); al.addWidget(b3)
+        b4 = QPushButton("??"); b4.clicked.connect(go(4)); al.addWidget(b4)
         al.addStretch()
         ml.addWidget(ap)
 
         self.sb = QStatusBar()
         self.setStatusBar(self.sb)
-        self.sb.showMessage("System ready")
+        self.sb.showMessage("就绪")
         self._apply_style()
 
     def _switch_page(self, idx):
         self.stack.setCurrentIndex(idx)
-        labels = ["Import", "Manage", "Classify", "Optimize", "Export"]
+        labels = ["??", "??", "??", "??", "??"]
         if idx < len(labels): self.sb.showMessage(labels[idx])
 
     def _toggle_theme(self):

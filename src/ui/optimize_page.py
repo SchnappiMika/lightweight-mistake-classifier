@@ -16,7 +16,7 @@ class OptimizePage(QWidget):
     def _setup_ui(self):
         layout = QVBoxLayout(self)
         layout.setContentsMargins(20, 20, 20, 20)
-        lbl = QLabel("Feedback & Incremental Optimization")
+        lbl = QLabel("Optimization")
         lbl.setStyleSheet("font-size: 18px; font-weight: bold; color: #2c3e50;")
         layout.addWidget(lbl)
 
@@ -25,7 +25,7 @@ class OptimizePage(QWidget):
         # Top: results table with correction
         top = QFrame()
         tl = QVBoxLayout(top)
-        tl.addWidget(QLabel("Classification Results (click to correct):"))
+        tl.addWidget(QLabel("Results:"))
         self.table = QTableWidget()
         self.table.setColumnCount(6)
         self.table.setHorizontalHeaderLabels(["#", "Question", "Category", "Priority", "Correct", "Status"])

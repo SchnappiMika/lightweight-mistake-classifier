@@ -89,6 +89,8 @@ class CategoryPage(QWidget):
                         d = json.load(f)
                         self.subject_combo.addItem(d["subject"] + "|" + fn)
         self.subject_combo.blockSignals(False)
+        if self.subject_combo.count() > 0:
+            self.subject_combo.setCurrentIndex(0)
 
     def _on_subject_changed(self, subject):
         """学科选择变化时加载对应分类"""
@@ -145,6 +147,9 @@ class CategoryPage(QWidget):
         """删除选中分类"""
         if self.current_cat_idx < 0 or not self.current_data:
             return
+        reply = QMessageBox.question(self, "????", "??????????????????", QMessageBox.Yes | QMessageBox.No, QMessageBox.No)
+        if reply != QMessageBox.Yes:
+            return
         cats = self.current_data["categories"]
         if self.current_cat_idx >= len(cats):
             return
@@ -161,6 +166,9 @@ class CategoryPage(QWidget):
         """保存当前编辑的分类"""
         if self.current_cat_idx < 0 or not self.current_data:
             return
+        reply = QMessageBox.question(self, "????", "??????????????????", QMessageBox.Yes | QMessageBox.No, QMessageBox.No)
+        if reply != QMessageBox.Yes:
+            return
         cats = self.current_data["categories"]
         if self.current_cat_idx >= len(cats):
             return
@@ -171,10 +179,11 @@ class CategoryPage(QWidget):
         kw_text = self.kw_edit.toPlainText().strip()
         keywords = [k.strip() for k in kw_text.split(",") if k.strip()]
         sample = self.sample_edit.toPlainText().strip()
+        existing = cats[self.current_cat_idx]
         cats[self.current_cat_idx] = {
             "name": name,
             "keywords": keywords,
-            "weight": 1.0,
+            "weight": existing.get("weight", 1.0),
             "sample": sample
         }
         cur = self.subject_combo.currentText()

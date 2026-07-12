@@ -18,17 +18,17 @@ class ClassifyPage(QWidget):
         layout = QVBoxLayout(self)
         layout.setContentsMargins(20, 20, 20, 20)
 
-        title = QLabel("One-Click Classification & Correction")
+        title = QLabel("????")
         title.setStyleSheet("font-size: 18px; font-weight: bold; color: #2c3e50;")
         layout.addWidget(title)
 
         filter_layout = QHBoxLayout()
-        filter_layout.addWidget(QLabel("Filter by subject:"))
+        filter_layout.addWidget(QLabel("?????:"))
         self.subject_filter = QComboBox()
-        self.subject_filter.addItems(["All", "\u9ad8\u7b49\u6570\u5b66", "\u5927\u5b66\u7269\u7406", "\u5927\u5b66\u82f1\u8bed"])
+        self.subject_filter.addItems(["??", "\u9ad8\u7b49\u6570\u5b66", "\u5927\u5b66\u7269\u7406", "\u5927\u5b66\u82f1\u8bed"])
         filter_layout.addWidget(self.subject_filter)
         filter_layout.addStretch()
-        self.classify_btn = QPushButton("Classify All")
+        self.classify_btn = QPushButton("????")
         self.classify_btn.setStyleSheet("background-color: #27ae60; color: white; padding: 8px 20px; font-size: 14px;")
         self.classify_btn.clicked.connect(self._on_classify)
         filter_layout.addWidget(self.classify_btn)
@@ -36,7 +36,7 @@ class ClassifyPage(QWidget):
 
         self.table = QTableWidget()
         self.table.setColumnCount(5)
-        self.table.setHorizontalHeaderLabels(["#", "Question", "Subject", "Classification", "Score"])
+        self.table.setHorizontalHeaderLabels(["#", "??", "??", "????", "???"])
         self.table.horizontalHeader().setSectionResizeMode(1, QHeaderView.Stretch)
         self.table.setSelectionBehavior(QTableWidget.SelectRows)
         layout.addWidget(self.table)
@@ -45,7 +45,7 @@ class ClassifyPage(QWidget):
         self.progress.setVisible(False)
         layout.addWidget(self.progress)
 
-        self.status_label = QLabel("Ready - import questions first")
+        self.status_label = QLabel("就绪 - 请先导入题目")
         self.status_label.setStyleSheet("color: #7f8c8d;")
         layout.addWidget(self.status_label)
 
@@ -59,7 +59,7 @@ class ClassifyPage(QWidget):
 
     def _on_classify(self):
         if not self.questions:
-            QMessageBox.warning(self, "No Data", "Please import questions first")
+            QMessageBox.warning(self, "无数据", "请先导入题目")
             return
         if not self.classifier:
             QMessageBox.warning(self, "Error", "Classifier not initialized")

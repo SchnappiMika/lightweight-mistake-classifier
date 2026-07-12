@@ -9,17 +9,17 @@ _base = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.dirname(_base))
 
 from src.classification.classifier import Classifier
-from src.ui.import_page import 导入Page
-from src.ui.classify_page import 分类Page
-from src.ui.export_page import 导出Page
+from src.ui.import_page import ImportPage
+from src.ui.classify_page import ClassifyPage
+from src.ui.export_page import ExportPage
 from src.ui.category_page import CategoryPage
-from src.ui.optimize_page import 优化Page
+from src.ui.optimize_page import OptimizePage
 
 
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("错题自动分类管理系统")
+        self.setWindowTitle("??????????")
         self.resize(1200, 800)
         self.dark_mode = False
         try:
@@ -28,11 +28,11 @@ class MainWindow(QMainWindow):
             print("Classifier init:", e)
             self.classifier = None
 
-        self.import_page = 导入Page()
-        self.classify_page = 分类Page(self.classifier)
-        self.export_page = 导出Page()
+        self.import_page = ImportPage()
+        self.classify_page = ClassifyPage(self.classifier)
+        self.export_page = ExportPage()
         self.category_page = CategoryPage()
-        self.optimize_page = 优化Page(self.classifier)
+        self.optimize_page = OptimizePage(self.classifier)
 
         self.import_page.questions_imported.connect(self.classify_page.set_questions)
         self.classify_page.results_ready.connect(self.export_page.set_results)
@@ -66,7 +66,7 @@ class MainWindow(QMainWindow):
         nl.addWidget(self.nav)
         nl.addStretch()
 
-        self.theme_btn = QPushButton(" 主题")
+        self.theme_btn = QPushButton("主题")
         self.theme_btn.clicked.connect(self._toggle_theme)
         nl.addWidget(self.theme_btn)
         v = QLabel("v1.0.0")
@@ -89,16 +89,16 @@ class MainWindow(QMainWindow):
         ap.setFixedWidth(160)
         al = QVBoxLayout(ap)
         al.setContentsMargins(8, 16, 8, 16)
-        at = QLabel("????")
+        at = QLabel("快捷操作")
         at.setObjectName("actionTitle")
         at.setAlignment(Qt.AlignCenter)
         al.addWidget(at)
         al.addSpacing(10)
         def go(i): return lambda: self.nav.setCurrentRow(i)
-        b1 = QPushButton("??"); b1.clicked.connect(go(0)); al.addWidget(b1)
-        b2 = QPushButton("??"); b2.setStyleSheet("background-color: #27ae60; color: white;"); b2.clicked.connect(go(2)); al.addWidget(b2)
-        b3 = QPushButton("??"); b3.setStyleSheet("background-color: #e67e22; color: white;"); b3.clicked.connect(go(3)); al.addWidget(b3)
-        b4 = QPushButton("??"); b4.clicked.connect(go(4)); al.addWidget(b4)
+        b1 = QPushButton("导入"); b1.clicked.connect(go(0)); al.addWidget(b1)
+        b2 = QPushButton("分类"); b2.setStyleSheet("background-color: #27ae60; color: white;"); b2.clicked.connect(go(2)); al.addWidget(b2)
+        b3 = QPushButton("修正"); b3.setStyleSheet("background-color: #e67e22; color: white;"); b3.clicked.connect(go(3)); al.addWidget(b3)
+        b4 = QPushButton("导出"); b4.clicked.connect(go(4)); al.addWidget(b4)
         al.addStretch()
         ml.addWidget(ap)
 
@@ -109,7 +109,7 @@ class MainWindow(QMainWindow):
 
     def _switch_page(self, idx):
         self.stack.setCurrentIndex(idx)
-        labels = ["??", "??", "??", "??", "??"]
+        labels = ["导入", "管理", "分类", "优化", "导出"]
         if idx < len(labels): self.sb.showMessage(labels[idx])
 
     def _toggle_theme(self):

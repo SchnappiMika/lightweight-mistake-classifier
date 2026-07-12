@@ -59,6 +59,11 @@ class ImportPage(QWidget):
         audio_btn.clicked.connect(self._on_import_audio)
         import_layout.addWidget(audio_btn)
 
+        # Image import
+        image_btn = QPushButton("Import Image")
+        image_btn.clicked.connect(self._on_import_image)
+        import_layout.addWidget(image_btn)
+
         layout.addWidget(import_group)
 
         # Question list

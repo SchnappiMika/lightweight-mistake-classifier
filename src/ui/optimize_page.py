@@ -38,11 +38,11 @@ class OptimizePage(QWidget):
         self.correct_combo = QComboBox()
         self.correct_combo.setEditable(True)
         ct.addWidget(self.correct_combo)
-        self.apply_btn = QPushButton("Apply Correction")
+        self.apply_btn = QPushButton("应用修正")
         self.apply_btn.setStyleSheet("background-color: #e67e22; color: white;")
         self.apply_btn.clicked.connect(self._on_correct)
         ct.addWidget(self.apply_btn)
-        self.priority_btn = QPushButton("Mark Priority")
+        self.priority_btn = QPushButton("标记优先级")
         self.priority_btn.setStyleSheet("background-color: #9b59b6; color: white;")
         self.priority_btn.clicked.connect(self._on_mark_priority)
         ct.addWidget(self.priority_btn)
@@ -52,7 +52,7 @@ class OptimizePage(QWidget):
         # Bottom: feedback history
         bottom = QFrame()
         bl = QVBoxLayout(bottom)
-        bl.addWidget(QLabel("Feedback History:"))
+        bl.addWidget(QLabel("修正记录:"))
         self.history_table = QTableWidget()
         self.history_table.setColumnCount(4)
         self.history_table.setHorizontalHeaderLabels(["Question", "Original", "Corrected", "Time"])
@@ -61,7 +61,7 @@ class OptimizePage(QWidget):
 
         # Stats
         stats = QHBoxLayout()
-        self.corrected_count = QLabel("Corrections made: 0")
+        self.corrected_count = QLabel("已修正: 0")
         stats.addWidget(self.corrected_count)
         self.accuracy_label = QLabel("System accuracy: N/A")
         stats.addWidget(self.accuracy_label)
@@ -117,7 +117,7 @@ class OptimizePage(QWidget):
         })
         self._update_table()
         self._update_history_table()
-        self.corrected_count.setText(f"Corrections made: {len(self.feedback_history)}")
+        self.corrected_count.setText(f"已修正: {len(self.feedback_history)}")
         # Incremental optimization
         if self.classifier:
             try:

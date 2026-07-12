@@ -9,17 +9,17 @@ _base = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.dirname(_base))
 
 from src.classification.classifier import Classifier
-from src.ui.import_page import ImportPage
-from src.ui.classify_page import ClassifyPage
-from src.ui.export_page import ExportPage
+from src.ui.import_page import 导入Page
+from src.ui.classify_page import 分类Page
+from src.ui.export_page import 导出Page
 from src.ui.category_page import CategoryPage
-from src.ui.optimize_page import OptimizePage
+from src.ui.optimize_page import 优化Page
 
 
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("??????????")
+        self.setWindowTitle("错题自动分类管理系统")
         self.resize(1200, 800)
         self.dark_mode = False
         try:
@@ -28,11 +28,11 @@ class MainWindow(QMainWindow):
             print("Classifier init:", e)
             self.classifier = None
 
-        self.import_page = ImportPage()
-        self.classify_page = ClassifyPage(self.classifier)
-        self.export_page = ExportPage()
+        self.import_page = 导入Page()
+        self.classify_page = 分类Page(self.classifier)
+        self.export_page = 导出Page()
         self.category_page = CategoryPage()
-        self.optimize_page = OptimizePage(self.classifier)
+        self.optimize_page = 优化Page(self.classifier)
 
         self.import_page.questions_imported.connect(self.classify_page.set_questions)
         self.classify_page.results_ready.connect(self.export_page.set_results)
@@ -60,13 +60,13 @@ class MainWindow(QMainWindow):
         nl.addWidget(t)
 
         self.nav = QListWidget()
-        self.nav.addItems(["  导入","管理","分类","优化","导出"])
+        self.nav.addItems(["  导入", "  管理", "  分类", "  优化", "  导出"])
         self.nav.setCurrentRow(0)
         self.nav.currentRowChanged.connect(self._switch_page)
         nl.addWidget(self.nav)
         nl.addStretch()
 
-        self.theme_btn = QPushButton(" ??")
+        self.theme_btn = QPushButton(" 主题")
         self.theme_btn.clicked.connect(self._toggle_theme)
         nl.addWidget(self.theme_btn)
         v = QLabel("v1.0.0")

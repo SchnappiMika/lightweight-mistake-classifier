@@ -29,7 +29,7 @@ class ImportPage(QWidget):
         import_layout = QHBoxLayout(import_group)
 
         # Manual input
-        manual_btn = QPushButton("Manual Input")
+        manual_btn = QPushButton("手动录入")
         manual_btn.clicked.connect(self._on_manual_import)
         import_layout.addWidget(manual_btn)
 
@@ -44,30 +44,30 @@ class ImportPage(QWidget):
         import_layout.addWidget(excel_btn)
 
         # Clear
-        clear_btn = QPushButton("Clear All")
+        clear_btn = QPushButton("清空")
         clear_btn.setStyleSheet("background-color: #e74c3c; color: white;")
         clear_btn.clicked.connect(self._on_clear)
         import_layout.addWidget(clear_btn)
 
         # Formula image import
-        formula_btn = QPushButton("Import Formula Image")
+        formula_btn = QPushButton("导入公式图")
         formula_btn.clicked.connect(self._on_import_formula)
         import_layout.addWidget(formula_btn)
 
         # Audio import
-        audio_btn = QPushButton("Import Audio")
+        audio_btn = QPushButton("导入音频")
         audio_btn.clicked.connect(self._on_import_audio)
         import_layout.addWidget(audio_btn)
 
         # Image import
-        image_btn = QPushButton("Import Image")
+        image_btn = QPushButton("导入图片")
         image_btn.clicked.connect(self._on_import_image)
         import_layout.addWidget(image_btn)
 
         layout.addWidget(import_group)
 
         # Question list
-        list_label = QLabel("Imported Questions:")
+        list_label = QLabel("已导入题目:")
         list_label.setStyleSheet("font-size: 14px; font-weight: bold; margin-top: 10px;")
         layout.addWidget(list_label)
 
@@ -189,7 +189,7 @@ from PyQt5.QtWidgets import QDialog, QVBoxLayout, QLabel, QTextEdit, QComboBox, 
 class ManualInputDialog(QDialog):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Manual Input")
+        self.setWindowTitle("手动录入")
         self.setMinimumWidth(500)
         layout = QVBoxLayout(self)
 

@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+*.egg/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project data (user-generated)
+data/output/*
+!data/output/.gitkeep
+data/samples/*
+!data/samples/.gitkeep
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Packaging
+*.spec
+
+# Logs
+*.log
+
+# Keep empty dirs
+*.gitkeep

@@ -1,11 +1,12 @@
 from PyQt5.QtWidgets import (QWidget, QVBoxLayout, QHBoxLayout, QLabel,
     QPushButton, QTableWidget, QTableWidgetItem, QHeaderView,
     QComboBox, QGroupBox, QMessageBox, QProgressBar)
-from PyQt5.QtCore import Qt
+from PyQt5.QtCore import Qt, pyqtSignal
 import sys, os, json
 
 
 class ClassifyPage(QWidget):
+    results_ready = pyqtSignal(list)
     def __init__(self, classifier=None):
         super().__init__()
         self.classifier = classifier
@@ -82,6 +83,7 @@ class ClassifyPage(QWidget):
         self.classify_btn.setEnabled(True)
         self.progress.setVisible(False)
         self.status_label.setText("Classification complete: " + str(len(self.results)) + " questions")
+        self.results_ready.emit(self.results)
 
     def _update_table(self):
         self.table.setRowCount(len(self.results))

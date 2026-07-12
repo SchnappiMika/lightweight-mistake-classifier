@@ -49,6 +49,16 @@ class ImportPage(QWidget):
         clear_btn.clicked.connect(self._on_clear)
         import_layout.addWidget(clear_btn)
 
+        # Formula image import
+        formula_btn = QPushButton("Import Formula Image")
+        formula_btn.clicked.connect(self._on_import_formula)
+        import_layout.addWidget(formula_btn)
+
+        # Audio import
+        audio_btn = QPushButton("Import Audio")
+        audio_btn.clicked.connect(self._on_import_audio)
+        import_layout.addWidget(audio_btn)
+
         layout.addWidget(import_group)
 
         # Question list
@@ -126,7 +136,49 @@ class ImportPage(QWidget):
         return self.questions
 
 
-from PyQt5.QtWidgets import QDialog, QVBoxLayout, QLabel, QTextEdit, QComboBox, QDialogButtonBox
+    def _on_import_formula(self):
+        fpath, _ = QFileDialog.getOpenFileName(
+            self, "Select Formula Image", "", "Images (*.png *.jpg *.jpeg)")
+        if fpath:
+            from ..preprocessing.formula import FormulaRecognizer
+            fr = FormulaRecognizer()
+            if fr.available:
+                latex = fr.recognize(fpath)
+                text = latex if latex else "[Formula image - recognition failed]"
+            else:
+                text = "[Formula image - pix2tex not installed, manually enter formula text]"
+            self.questions.append({"text": text, "subject": "\u9ad8\u7b49\u6570\u5b66", "type": "formula", "path": fpath})
+            self._refresh_list()
+
+    def _on_import_audio(self):
+        fpath, _ = QFileDialog.getOpenFileName(
+            self, "Select Audio File", "", "Audio (*.mp3 *.wav *.m4a)")
+        if fpath:
+            from ..preprocessing.audio import AudioTranscriber
+            at = AudioTranscriber()
+            if at.available:
+                text = at.transcribe(fpath)
+                text = text if text else "[Audio transcription failed]"
+            else:
+                text = "[Audio - Whisper not installed, manually enter listening content]"
+            self.questions.append({"text": text, "subject": "\u5927\u5b66\u82f1\u8bed", "type": "audio", "path": fpath})
+            self._refresh_list()
+
+    def _on_import_image(self):
+        fpath, _ = QFileDialog.getOpenFileName(
+            self, "Select Image", "", "Images (*.png *.jpg *.jpeg)")
+        if fpath:
+            from ..preprocessing.image_ocr import ImageOCR
+            ocr = ImageOCR()
+            if ocr.available:
+                texts = ocr.extract_text(fpath)
+                text = " ".join(texts) if texts else "[No text found in image]"
+            else:
+                text = "[Image - PaddleOCR not installed, manually describe the image content]"
+            self.questions.append({"text": text, "subject": "\u5927\u5b66\u7269\u7406", "type": "image", "path": fpath})
+            self._refresh_list()
+
+from PyQt5.QtWidgets import QDialog, QVBoxLayout, QLabel, QTextEdit, QComboBox, QDialogButtonBox, QFileDialog
 
 
 class ManualInputDialog(QDialog):

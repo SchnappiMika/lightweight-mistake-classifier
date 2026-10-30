@@ -1,0 +1,38 @@
+[
+  {
+    "id": "formula_center_of_mass",
+    "path": "samples\\public_acceptance\\media\\formula_center_of_mass.png",
+    "status": "recognized",
+    "text": "S =\nf(x)dx\na\n1\nxf(x) dx\n1\nf2(x) dx\n=f\n2S\n• [xT, YT]\nx\na\nb",
+    "line_count": 13,
+    "elapsed_ms": 2934.525799995754,
+    "error": ""
+  },
+  {
+    "id": "formula_leibniz_notation",
+    "path": "samples\\public_acceptance\\media\\formula_leibniz_notation.png",
+    "status": "recognized",
+    "text": "d²y\ndx\ndy\ndx2",
+    "line_count": 4,
+    "elapsed_ms": 1864.9891999957617,
+    "error": ""
+  },
+  {
+    "id": "figure_intro_physics_42",
+    "path": "samples\\public_acceptance\\media\\figure_1.png",
+    "status": "recognized",
+    "text": "Δ t\nt⁵\nΔ t’\nprimed coord\nsys moving\nunprimed coord\nsys moving at\nspeed U\nat\nspeed -U\nworld line of object\nworld line of object\nmoving at speed\nmoving at speed v\nv' = ν - U\nx, x'\nx, x'\n2_\n2",
+    "line_count": 19,
+    "elapsed_ms": 2369.2289000027813,
+    "error": ""
+  },
+  {
+    "id": "figure_reflection_boundary",
+    "path": "samples\\public_acceptance\\media\\figure_2.png",
+    "status": "recognized",
+    "text": "FIRST MEDIUM\nRν\ndΩ\ndΩ\n6\n6\n-BOUNDARY SURFACE\n0\n8ECONDMEDIUM\nRv'\ndΩ'\nFig. 1.",
+    "line_count": 12,
+    "elapsed_ms": 2477.7938000042923,
+    "error": ""
+  }
+]

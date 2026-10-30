@@ -1,0 +1,128 @@
+{
+  "generated_at": "2026-10-29T01:11:38.050169+00:00",
+  "python_executable": "D:\\桌面\\校创\\mistake_classifier\\.venv-formula\\Scripts\\python.exe",
+  "model_manifest": {
+    "prepared_at": "2026-10-29T01:01:19.809061+00:00",
+    "engine": "pix2tex",
+    "package_version": "0.1.4",
+    "checkpoint_release": "v0.0.1",
+    "upstream_repository": "https://github.com/lukas-blecher/LaTeX-OCR",
+    "code_license": "MIT",
+    "license_file": "LICENSE.pix2tex.txt",
+    "checkpoint_license_note": "官方仓库在 MIT 许可下发布；v0.0.1 release 资产未另附独立模型许可证，保留仓库许可及来源，公开再分发前复核权利范围。",
+    "hash_note": "SHA-256 是本次实际下载的固定指纹；上游未提供独立签名校验值。",
+    "python": "3.12.13 (main, May 10 2026, 19:35:37) [MSC v.1944 64 bit (AMD64)]",
+    "files": [
+      {
+        "filename": "weights.pth",
+        "source_url": "https://github.com/lukas-blecher/LaTeX-OCR/releases/download/v0.0.1/weights.pth",
+        "release": "v0.0.1",
+        "bytes": 102113875,
+        "sha256": "a63d9141c53d266cb682fb5a8bd83bd5cbe283145e0e78ebdc0f895195a1dfaa"
+      },
+      {
+        "filename": "image_resizer.pth",
+        "source_url": "https://github.com/lukas-blecher/LaTeX-OCR/releases/download/v0.0.1/image_resizer.pth",
+        "release": "v0.0.1",
+        "bytes": 19441973,
+        "sha256": "1c3820659985ad142b526490bb25c23d977176ac2073591b3bddada692718458"
+      },
+      {
+        "filename": "config.yaml",
+        "source": "pix2tex==0.1.4 wheel/pix2tex/model/settings/config.yaml",
+        "bytes": 917,
+        "sha256": "a9b18acf6718ffed79ab669c9957c46936714f4b983705f0b1361d90f4ea89aa"
+      },
+      {
+        "filename": "tokenizer.json",
+        "source": "pix2tex==0.1.4 wheel/pix2tex/model/dataset/tokenizer.json",
+        "bytes": 24174,
+        "sha256": "1dc27b18d6a518d0d5ff3f4bb7bd98521fe80ad39e5b2a246d4109f1bb9d5019"
+      },
+      {
+        "filename": "LICENSE.pix2tex.txt",
+        "source": "pix2tex==0.1.4 wheel/pix2tex-0.1.4.dist-info/LICENSE",
+        "bytes": 1091,
+        "sha256": "a4854760d3b3ba03f7f9f5a64406cf5d0788942fadd2c00430a12efa8f039e4c"
+      }
+    ]
+  },
+  "network": "backend 在导入模型前阻断 socket connect/create_connection",
+  "timing_scope": "每张独立工作进程；含模型哈希、模块导入、模型加载和推理；不含人工校对、分类、存档。",
+  "accuracy_evaluated": false,
+  "results": [
+    {
+      "text": "\\begin{array}{c}{{\\phi^{\\dagger}\\int_{a}^{\\dagger}\\int_{a}^{\\dagger}\\int_{a}^{\\dagger}\\int_{a\\not=b}^{\\infty}\\displaystyle\\frac{}{}}}\\\\ {{\\mathrm{}{}^{\\dagger}\\frac{\\left\\Vert s_{\\dagger}\\right\\Vert}{\\hbar_{a}^{\\dagger}\\left\\Vert s_{\\dagger}k\\right\\rangle}\\displaystyle\\left\\langle\\begin{array}{c}{{}}\\\\ {{}}\\\\ {{}}\\\\ {{}}\\\\ {{\\mathrm{}=\\langle\\not=\\mathrm{{}}d\\Omega}}\\end{array}\\right|}}\\end{array}",
+      "draft": "\\begin{array}{c}{{\\phi^{\\dagger}\\int_{a}^{\\dagger}\\int_{a}^{\\dagger}\\int_{a}^{\\dagger}\\int_{a\\not=b}^{\\infty}\\displaystyle\\frac{}{}}}\\\\ {{\\mathrm{}{}^{\\dagger}\\frac{\\left\\Vert s_{\\dagger}\\right\\Vert}{\\hbar_{a}^{\\dagger}\\left\\Vert s_{\\dagger}k\\right\\rangle}\\displaystyle\\left\\langle\\begin{array}{c}{{}}\\\\ {{}}\\\\ {{}}\\\\ {{}}\\\\ {{\\mathrm{}=\\langle\\not=\\mathrm{{}}d\\Omega}}\\end{array}\\right|}}\\end{array}",
+      "media_hash": "1471411eb9f98199ae7b46b2bc521a02ee46d4eb2997206f74e14eaa10d2ec30",
+      "engine": "pix2tex 0.1.4 / CPU",
+      "elapsed_ms": 54593.50840002298,
+      "confirmed": false,
+      "created_at": 1793236215.63414,
+      "error": "",
+      "applied_text": "",
+      "review_status": "待人工复核",
+      "id": "formula_center_of_mass",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Center_of_mass_using_integral.png",
+      "license": "CC BY-SA 4.0",
+      "input_path": "D:\\桌面\\校创\\mistake_classifier\\samples\\public_acceptance\\media\\formula_center_of_mass.png",
+      "source_sha256": "1471411eb9f98199ae7b46b2bc521a02ee46d4eb2997206f74e14eaa10d2ec30",
+      "subprocess_wall_ms": 56526.596200012136,
+      "returncode": 0
+    },
+    {
+      "text": "\\frac{d x}{d y}\\qquad\\frac{d^{2}y}{d x^{2}}",
+      "draft": "\\frac{d x}{d y}\\qquad\\frac{d^{2}y}{d x^{2}}",
+      "media_hash": "f39607d82117c13123dede2ca19ce638c8225f29db66043ed7d2fd70ce491ca5",
+      "engine": "pix2tex 0.1.4 / CPU",
+      "elapsed_ms": 24020.278899988625,
+      "confirmed": false,
+      "created_at": 1793236272.230998,
+      "error": "",
+      "applied_text": "",
+      "review_status": "待人工复核",
+      "id": "formula_leibniz_notation",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LeibnizNotation.png",
+      "license": "CC BY-SA 4.0",
+      "input_path": "D:\\桌面\\校创\\mistake_classifier\\samples\\public_acceptance\\media\\formula_leibniz_notation.png",
+      "source_sha256": "f39607d82117c13123dede2ca19ce638c8225f29db66043ed7d2fd70ce491ca5",
+      "subprocess_wall_ms": 26024.923399992986,
+      "returncode": 0
+    }
+  ],
+  "derived_examples": [
+    {
+      "text": "S\\underline{{{B}}}",
+      "draft": "S\\underline{{{B}}}",
+      "media_hash": "d5384628d42caf39f5e7408aa301e85b0cea816103b716a97299907788c7a9f0",
+      "engine": "pix2tex 0.1.4 / CPU",
+      "elapsed_ms": 21202.924699988216,
+      "confirmed": false,
+      "created_at": 1793236298.7521884,
+      "error": "",
+      "applied_text": "",
+      "review_status": "待用户人工确认",
+      "source_id": "formula_center_of_mass",
+      "preprocessing": "原图裁剪(40,40,550,250)并反色",
+      "independent_sample": false,
+      "developer_visual_check": "明显误识别"
+    },
+    {
+      "text": "S\\,=\\,\\int_{a}^{b}f(x)\\mathrm{d}x",
+      "draft": "S\\,=\\,\\int_{a}^{b}f(x)\\mathrm{d}x",
+      "media_hash": "5b204d837e0f853ea324d0b90bcd3dd084e48db05a2ec68b2caf20324da7f7a3",
+      "engine": "pix2tex 0.1.4 / CPU",
+      "elapsed_ms": 20640.77019999968,
+      "confirmed": false,
+      "created_at": 1793236418.3512516,
+      "error": "",
+      "applied_text": "",
+      "review_status": "待用户人工确认",
+      "source_id": "formula_center_of_mass",
+      "preprocessing": "同一裁剪图缩放50%至255x105",
+      "independent_sample": false,
+      "developer_visual_check": "与图中首式相符，尚未形成独立人工标注"
+    }
+  ],
+  "dependencies_lock": "docs/公式识别依赖锁定.txt"
+}

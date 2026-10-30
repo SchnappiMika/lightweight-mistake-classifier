@@ -1,0 +1,140 @@
+{
+  "frozen": true,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+  "executable": "D:\\桌面\\校创\\mistake_classifier\\dist\\错题自动分类\\错题自动分类.exe",
+  "checks": [
+    {
+      "name": "gui_navigation",
+      "passed": true,
+      "pages": 5
+    },
+    {
+      "name": "text_classification_and_save",
+      "passed": true,
+      "labels": {
+        "knowledge": "定积分及其应用",
+        "error_type": "计算失误"
+      }
+    },
+    {
+      "name": "excel_export",
+      "passed": true,
+      "bytes": 7850
+    },
+    {
+      "name": "backup",
+      "passed": true,
+      "bytes": 20043
+    },
+    {
+      "name": "reload",
+      "passed": true
+    },
+    {
+      "name": "image_ocr",
+      "passed": true,
+      "text": "d²y\ndx\ndy\ndx2",
+      "elapsed_ms": 3137.8753000171855
+    },
+    {
+      "name": "audio_transcription",
+      "passed": true,
+      "text": "Suppose that the reversible part of the generator is rapidly pumping fluctuations into a particular mode family. For example, by parametric driving or coupling to an external source, the dissipative part, G, governs the actual relaxation and information received in that channel. The rate at which the fluctuations are converted into received information is then controlled by the Fisher spectral density and obeys the early time power law. In that sense, the spectral tail is a fingerprint of how efficiently source information is transferred into data information in a given",
+      "elapsed_ms": 12454.920699994545
+    },
+    {
+      "name": "audio_review_classify_export_reload",
+      "passed": true,
+      "latex": "",
+      "tokens": [
+        "suppose",
+        "reversible",
+        "generator",
+        "rapid",
+        "pump",
+        "fluctuation",
+        "particular",
+        "mode",
+        "fami",
+        "example",
+        "parametric",
+        "driv",
+        "coupl",
+        "external",
+        "source",
+        "dissipative",
+        "govern",
+        "actual",
+        "relaxation",
+        "information",
+        "receiv",
+        "channel",
+        "rate",
+        "fluctuation",
+        "convert",
+        "receiv",
+        "information",
+        "controll",
+        "fisher",
+        "spectral",
+        "density",
+        "obey",
+        "ear",
+        "time",
+        "power",
+        "law",
+        "sense",
+        "spectral",
+        "tail",
+        "fingerprint",
+        "efficient",
+        "source",
+        "information",
+        "transfer",
+        "datum",
+        "information",
+        "give"
+      ],
+      "formula_tokens": [],
+      "labels": {
+        "knowledge": "听力理解"
+      },
+      "export_bytes": 7833,
+      "backup_bytes": 2431607,
+      "review_note": "自动应用仅验证数据链路，未经人工校对，不作为准确率或真人验收结论。"
+    },
+    {
+      "name": "formula_recognition",
+      "passed": true,
+      "text": "\\frac{d x}{d y}\\qquad\\frac{d^{2}y}{d x^{2}}",
+      "elapsed_ms": 18679.988199990476
+    },
+    {
+      "name": "formula_review_classify_export_reload",
+      "passed": true,
+      "latex": "\\frac{d x}{d y}\\qquad\\frac{d^{2}y}{d x^{2}}",
+      "tokens": [],
+      "formula_tokens": [
+        "导数",
+        "导数",
+        "微分方程",
+        "微分方程",
+        "分式"
+      ],
+      "labels": {
+        "knowledge": "微分方程"
+      },
+      "export_bytes": 7826,
+      "backup_bytes": 2452952,
+      "review_note": "自动应用仅验证数据链路，未经人工校对，不作为准确率或真人验收结论。"
+    }
+  ],
+  "passed": true,
+  "limits": [
+    "本机冒烟，不能替代未装 Python 的干净电脑、macOS 或学生试用验收。"
+  ],
+  "workspace_isolated": true,
+  "screenshot": "D:\\桌面\\校创\\mistake_classifier\\.startup-check\\release\\packaged_smoke_final.png",
+  "elapsed_ms": 65398.980500001926
+}

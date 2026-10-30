@@ -1,38 +1,45 @@
-# Python
+# ---- Python ----
 __pycache__/
 *.py[cod]
 *.so
 *.egg-info/
-dist/
-build/
-*.egg/
+.eggs/
 
-# Virtual environment
-venv/
+# ---- 虚拟环境 ----
 .venv/
+.venv-formula/
+.formula-setup/
+venv/
 env/
 
-# IDE
+# ---- 构建产物 ----
+build/
+dist/
+*.manifest
+
+# ---- 测试与运行产物 ----
+.pytest_cache/
+.startup-check/
+*.log
+启动日志.txt
+
+# ---- 评测原始输出（体积大，可本地重新生成）----
+tools/results/
+
+# ---- 用户数据与模型（不入库）----
+models/
+data/
+deliverables/
+
+# ---- 本地临时文件 ----
+.dsh-office-*
+.warm-probe/
+*.tmp
+
+# ---- IDE / 系统 ----
 .vscode/
 .idea/
 *.swp
 *.swo
-
-# Project data (user-generated)
-data/output/*
-!data/output/.gitkeep
-data/samples/*
-!data/samples/.gitkeep
-
-# OS
 Thumbs.db
 .DS_Store
-
-# Packaging
-*.spec
-
-# Logs
-*.log
-
-# Keep empty dirs
-*.gitkeep

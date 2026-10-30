@@ -1,0 +1,765 @@
+{
+  "formula": [
+    {
+      "latex": "\\lim_{x \\to 0}\\frac{\\tan x-\\sin x}{x^{3}}",
+      "subject": "高等数学",
+      "expect": [
+        "极限"
+      ]
+    },
+    {
+      "latex": "\\lim_{x \\to \\infty}\\left(1+\\frac{a}{x}\\right)^{x}=e^{2}",
+      "subject": "高等数学",
+      "expect": [
+        "极限"
+      ]
+    },
+    {
+      "latex": "\\lim_{x \\to 0^{+}} x^{\\sin x}",
+      "subject": "高等数学",
+      "expect": [
+        "极限"
+      ]
+    },
+    {
+      "latex": "y=x^{\\sin x}",
+      "subject": "高等数学",
+      "expect": []
+    },
+    {
+      "latex": "\\frac{\\mathrm{d}y}{\\mathrm{d}x}",
+      "subject": "高等数学",
+      "expect": [
+        "导数",
+        "微分"
+      ]
+    },
+    {
+      "latex": "\\int \\frac{1}{x\\sqrt{1+x^{2}}}\\,\\mathrm{d}x",
+      "subject": "高等数学",
+      "expect": [
+        "不定积分"
+      ]
+    },
+    {
+      "latex": "\\int x^{2}e^{x}\\,\\mathrm{d}x",
+      "subject": "高等数学",
+      "expect": [
+        "不定积分"
+      ]
+    },
+    {
+      "latex": "\\int_{0}^{\\pi/2}\\sin^{3}x\\,\\mathrm{d}x",
+      "subject": "高等数学",
+      "expect": [
+        "定积分"
+      ]
+    },
+    {
+      "latex": "\\int_{1}^{+\\infty}\\frac{\\mathrm{d}x}{x^{p}}",
+      "subject": "高等数学",
+      "expect": [
+        "定积分"
+      ]
+    },
+    {
+      "latex": "\\iint_{D}e^{-x^{2}-y^{2}}\\,\\mathrm{d}x\\mathrm{d}y",
+      "subject": "高等数学",
+      "expect": [
+        "二重积分"
+      ]
+    },
+    {
+      "latex": "\\iiint_{\\Omega}z\\,\\mathrm{d}V",
+      "subject": "高等数学",
+      "expect": [
+        "三重积分"
+      ]
+    },
+    {
+      "latex": "\\oint_{L}(x^{2}-y)\\,\\mathrm{d}x+(x+y^{2})\\,\\mathrm{d}y",
+      "subject": "高等数学",
+      "expect": [
+        "曲线积分"
+      ]
+    },
+    {
+      "latex": "\\sum_{n=1}^{\\infty}\\frac{x^{n}}{n \\cdot 2^{n}}",
+      "subject": "高等数学",
+      "expect": [
+        "无穷级数"
+      ]
+    },
+    {
+      "latex": "\\frac{\\partial z}{\\partial x}",
+      "subject": "高等数学",
+      "expect": [
+        "偏导数"
+      ]
+    },
+    {
+      "latex": "\\nabla f",
+      "subject": "高等数学",
+      "expect": [
+        "梯度"
+      ]
+    },
+    {
+      "latex": "y''-5y'+6y=e^{2x}",
+      "subject": "高等数学",
+      "expect": [
+        "微分方程"
+      ]
+    },
+    {
+      "latex": "E = mc^{2}",
+      "subject": "大学物理",
+      "expect": [
+        "质能方程"
+      ]
+    },
+    {
+      "latex": "pV = \\nu RT",
+      "subject": "大学物理",
+      "expect": [
+        "理想气体状态方程"
+      ]
+    },
+    {
+      "latex": "\\lambda = \\frac{h}{p}",
+      "subject": "大学物理",
+      "expect": [
+        "德布罗意波"
+      ]
+    },
+    {
+      "latex": "\\oint \\vec{B} \\cdot \\mathrm{d}\\vec{l} = \\mu_0 I",
+      "subject": "大学物理",
+      "expect": [
+        "安培环路定理"
+      ]
+    },
+    {
+      "latex": "\\vec{I}=\\int \\vec{F}\\,\\mathrm{d}t",
+      "subject": "大学物理",
+      "expect": [
+        "冲量"
+      ]
+    },
+    {
+      "latex": "J_{1}\\omega_{1}=J_{2}\\omega_{2}",
+      "subject": "大学物理",
+      "expect": [
+        "角动量"
+      ]
+    },
+    {
+      "latex": "x=A\\cos(\\omega t+\\varphi)",
+      "subject": "大学物理",
+      "expect": [
+        "简谐振动"
+      ]
+    },
+    {
+      "latex": "\\eta=1-\\frac{T_{2}}{T_{1}}",
+      "subject": "大学物理",
+      "expect": [
+        "热机效率"
+      ]
+    },
+    {
+      "latex": "\\det(A)",
+      "subject": "线性代数",
+      "expect": [
+        "行列式"
+      ]
+    },
+    {
+      "latex": "|\\lambda E-A|=0",
+      "subject": "线性代数",
+      "expect": [
+        "特征值"
+      ]
+    },
+    {
+      "latex": "A^{-1}",
+      "subject": "线性代数",
+      "expect": [
+        "逆矩阵"
+      ]
+    },
+    {
+      "latex": "Ax=0",
+      "subject": "线性代数",
+      "expect": [
+        "线性方程组",
+        "齐次线性方程组"
+      ]
+    },
+    {
+      "latex": "P(A|B)",
+      "subject": "概率论与数理统计",
+      "expect": [
+        "条件概率"
+      ]
+    },
+    {
+      "latex": "X \\sim N(\\mu,\\sigma^{2})",
+      "subject": "概率论与数理统计",
+      "expect": [
+        "正态分布"
+      ]
+    },
+    {
+      "latex": "X \\sim B(n,p)",
+      "subject": "概率论与数理统计",
+      "expect": [
+        "二项分布"
+      ]
+    },
+    {
+      "latex": "E(2X+3Y)",
+      "subject": "概率论与数理统计",
+      "expect": [
+        "数学期望"
+      ]
+    },
+    {
+      "latex": "D(X-Y)",
+      "subject": "概率论与数理统计",
+      "expect": [
+        "方差"
+      ]
+    },
+    {
+      "latex": "\\hat{\\theta}",
+      "subject": "概率论与数理统计",
+      "expect": [
+        "参数估计",
+        "点估计",
+        "极大似然估计"
+      ]
+    }
+  ],
+  "text": [
+    {
+      "text": "讨论分段函数在 x=1 处的连续性，判断该间断点属于可去间断点还是跳跃间断点。",
+      "subject": "高等数学",
+      "qtype": "text",
+      "expect": [
+        "连续性",
+        "间断点"
+      ]
+    },
+    {
+      "text": "利用夹逼准则证明该数列的极限存在，并求出这个极限值。",
+      "subject": "高等数学",
+      "qtype": "text",
+      "expect": [
+        "夹逼准则",
+        "极限"
+      ]
+    },
+    {
+      "text": "利用拉格朗日中值定理证明该不等式成立，需要先构造合适的辅助函数。",
+      "subject": "高等数学",
+      "qtype": "text",
+      "expect": [
+        "拉格朗日中值定理",
+        "辅助函数"
+      ]
+    },
+    {
+      "text": "求函数的单调区间与极值点，并讨论曲线的凹凸性与拐点位置。",
+      "subject": "高等数学",
+      "qtype": "text",
+      "expect": [
+        "单调区间",
+        "极值点",
+        "凹凸性",
+        "拐点"
+      ]
+    },
+    {
+      "text": "把函数展开成三阶麦克劳林公式，并写出拉格朗日型余项。",
+      "subject": "高等数学",
+      "qtype": "text",
+      "expect": [
+        "麦克劳林公式",
+        "余项"
+      ]
+    },
+    {
+      "text": "用凑微分法求该有理函数的原函数，最后不要忘记加上任意常数。",
+      "subject": "高等数学",
+      "qtype": "text",
+      "expect": [
+        "凑微分法",
+        "原函数"
+      ]
+    },
+    {
+      "text": "求由两条曲线围成的平面图形绕 x 轴旋转所得旋转体的体积。",
+      "subject": "高等数学",
+      "qtype": "text",
+      "expect": [
+        "旋转体",
+        "体积"
+      ]
+    },
+    {
+      "text": "用可分离变量法求解一阶微分方程，再代入初值条件确定特解。",
+      "subject": "高等数学",
+      "qtype": "text",
+      "expect": [
+        "可分离变量",
+        "微分方程",
+        "特解"
+      ]
+    },
+    {
+      "text": "用拉格朗日乘数法求多元函数在给定约束条件下的条件极值。",
+      "subject": "高等数学",
+      "qtype": "text",
+      "expect": [
+        "拉格朗日乘数法",
+        "条件极值"
+      ]
+    },
+    {
+      "text": "交换该累次积分的次序后再计算，先画出积分区域。",
+      "subject": "高等数学",
+      "qtype": "text",
+      "expect": [
+        "累次积分",
+        "积分区域"
+      ]
+    },
+    {
+      "text": "用比值判别法判断该正项级数的敛散性，注意比值等于 1 时失效。",
+      "subject": "高等数学",
+      "qtype": "text",
+      "expect": [
+        "比值判别法",
+        "正项级数",
+        "敛散性"
+      ]
+    },
+    {
+      "text": "判断该交错级数是绝对收敛还是条件收敛，用莱布尼茨判别法。",
+      "subject": "高等数学",
+      "qtype": "text",
+      "expect": [
+        "交错级数",
+        "绝对收敛",
+        "条件收敛",
+        "莱布尼茨判别法"
+      ]
+    },
+    {
+      "text": "两物体发生完全非弹性碰撞，用动量守恒定律求碰后共同速度以及损失的动能。",
+      "subject": "大学物理",
+      "qtype": "text",
+      "expect": [
+        "完全非弹性碰撞",
+        "动量守恒定律",
+        "动能"
+      ]
+    },
+    {
+      "text": "用动能定理计算变力所做的功，注意力随位置变化时要做积分。",
+      "subject": "大学物理",
+      "qtype": "text",
+      "expect": [
+        "动能定理"
+      ]
+    },
+    {
+      "text": "求均匀细杆绕其端点转动时的转动惯量，用平行轴定理换算。",
+      "subject": "大学物理",
+      "qtype": "text",
+      "expect": [
+        "转动惯量",
+        "平行轴定理"
+      ]
+    },
+    {
+      "text": "根据波程差判断两列相干波叠加处是加强还是减弱，并求驻波的波节位置。",
+      "subject": "大学物理",
+      "qtype": "text",
+      "expect": [
+        "波程差",
+        "相干波",
+        "驻波",
+        "波节"
+      ]
+    },
+    {
+      "text": "用能量均分定理求双原子分子的平均平动动能与总自由度。",
+      "subject": "大学物理",
+      "qtype": "text",
+      "expect": [
+        "能量均分定理",
+        "自由度"
+      ]
+    },
+    {
+      "text": "用高斯定理求无限长均匀带电圆柱体内外的电场强度分布。",
+      "subject": "大学物理",
+      "qtype": "text",
+      "expect": [
+        "高斯定理",
+        "电场强度"
+      ]
+    },
+    {
+      "text": "用安培环路定理求无限长载流螺线管内部的磁感应强度。",
+      "subject": "大学物理",
+      "qtype": "text",
+      "expect": [
+        "安培环路定理",
+        "磁感应强度"
+      ]
+    },
+    {
+      "text": "由光电效应方程求金属的逸出功与遏止电压。",
+      "subject": "大学物理",
+      "qtype": "text",
+      "expect": [
+        "光电效应",
+        "逸出功",
+        "遏止电压"
+      ]
+    },
+    {
+      "text": "用初等行变换求这个矩阵的逆矩阵，注意增广矩阵的写法。",
+      "subject": "线性代数",
+      "qtype": "text",
+      "expect": [
+        "初等行变换",
+        "逆矩阵",
+        "增广矩阵"
+      ]
+    },
+    {
+      "text": "判断这个向量组的线性相关性，并求出它的极大线性无关组。",
+      "subject": "线性代数",
+      "qtype": "text",
+      "expect": [
+        "线性相关",
+        "极大线性无关组"
+      ]
+    },
+    {
+      "text": "用正交矩阵把实对称矩阵相似对角化，需要做施密特正交化。",
+      "subject": "线性代数",
+      "qtype": "text",
+      "expect": [
+        "正交矩阵",
+        "实对称矩阵",
+        "相似对角化",
+        "施密特正交化"
+      ]
+    },
+    {
+      "text": "判断这个二次型是否正定，用顺序主子式判别法。",
+      "subject": "线性代数",
+      "qtype": "text",
+      "expect": [
+        "二次型",
+        "正定",
+        "顺序主子式"
+      ]
+    },
+    {
+      "text": "古典概型的摸球问题，注意区分有放回抽样与无放回抽样。",
+      "subject": "概率论与数理统计",
+      "qtype": "text",
+      "expect": [
+        "古典概型",
+        "有放回",
+        "无放回"
+      ]
+    },
+    {
+      "text": "判断这些事件是否相互独立，用加法公式和乘法公式计算概率。",
+      "subject": "概率论与数理统计",
+      "qtype": "text",
+      "expect": [
+        "相互独立",
+        "加法公式",
+        "乘法公式"
+      ]
+    },
+    {
+      "text": "求两个随机变量的协方差与相关系数，判断是否不相关。",
+      "subject": "概率论与数理统计",
+      "qtype": "text",
+      "expect": [
+        "协方差",
+        "相关系数"
+      ]
+    },
+    {
+      "text": "用中心极限定理近似求独立同分布随机变量之和落在某区间的概率。",
+      "subject": "概率论与数理统计",
+      "qtype": "text",
+      "expect": [
+        "中心极限定理",
+        "独立同分布"
+      ]
+    },
+    {
+      "text": "构造服从 t 分布的统计量求总体均值的置信区间，做区间估计。",
+      "subject": "概率论与数理统计",
+      "qtype": "text",
+      "expect": [
+        "置信区间",
+        "区间估计"
+      ]
+    },
+    {
+      "text": "在给定显著性水平下对总体均值做假设检验，判断是否犯了弃真错误。",
+      "subject": "概率论与数理统计",
+      "qtype": "text",
+      "expect": [
+        "显著性水平",
+        "假设检验"
+      ]
+    }
+  ],
+  "figure": [
+    {
+      "text": "对斜面上的物块做受力分析，用牛顿第二定律列方程求加速度与摩擦力。",
+      "annotation": "如图是斜面受力分析图，标注了角度和摩擦因数，我漏画了正压力的分量",
+      "subject": "大学物理",
+      "qtype": "figure",
+      "expect": [
+        "受力分析",
+        "牛顿第二定律",
+        "摩擦因数"
+      ]
+    },
+    {
+      "text": "带电粒子垂直射入匀强磁场，由洛伦兹力求其做圆周运动的半径与周期。",
+      "annotation": "如图为粒子在磁场中的圆轨迹，标出了磁感应强度方向，我把洛伦兹力方向判断反了",
+      "subject": "大学物理",
+      "qtype": "figure",
+      "expect": [
+        "洛伦兹力",
+        "匀强磁场",
+        "圆周运动"
+      ]
+    },
+    {
+      "text": "导体棒在匀强磁场中切割磁感线，用法拉第电磁感应定律求动生电动势。",
+      "annotation": "如图为导轨上滑动的导体棒，标有磁场方向和速度，感应电流方向判断反了",
+      "subject": "大学物理",
+      "qtype": "figure",
+      "expect": [
+        "法拉第电磁感应定律",
+        "动生电动势",
+        "感应电流"
+      ]
+    },
+    {
+      "text": "杨氏双缝干涉实验中求明纹与暗纹的位置以及相邻条纹间距。",
+      "annotation": "如图是双缝干涉的光路图，标出了缝间距和屏距，半波损失漏考虑了",
+      "subject": "大学物理",
+      "qtype": "figure",
+      "expect": [
+        "双缝干涉",
+        "半波损失"
+      ]
+    },
+    {
+      "text": "理想气体经历等温膨胀和绝热压缩，用热力学第一定律求各过程的功与内能变化。",
+      "annotation": "如图是 p-V 图上的循环过程，标出了各状态点，绝热过程的功我用等温公式算了",
+      "subject": "大学物理",
+      "qtype": "figure",
+      "expect": [
+        "热力学第一定律",
+        "等温",
+        "绝热"
+      ]
+    },
+    {
+      "text": "对刚体列转动定律方程，由合外力矩求角加速度以及转动动能。",
+      "annotation": "如图是定滑轮与重物的连接图，标有半径和质量，绳张力两侧当成相等了",
+      "subject": "大学物理",
+      "qtype": "figure",
+      "expect": [
+        "转动定律",
+        "角加速度",
+        "转动动能"
+      ]
+    },
+    {
+      "text": "用场强叠加原理求均匀带电圆环轴线上一点的电场强度与电势。",
+      "annotation": "如图是带电圆环示意图，标有半径和轴上距离，我把矢量叠加当成标量相加了",
+      "subject": "大学物理",
+      "qtype": "figure",
+      "expect": [
+        "电场强度",
+        "电势"
+      ]
+    },
+    {
+      "text": "斜抛运动中求落地点的水平距离与飞行时间，注意参考系的选取。",
+      "annotation": "如图为斜抛运动轨迹示意图，标有初速度和抛射角，我把竖直分速度算错了",
+      "subject": "大学物理",
+      "qtype": "figure",
+      "expect": [
+        "斜抛运动",
+        "参考系"
+      ]
+    }
+  ],
+  "english": [
+    {
+      "text": "If I ______ you, I would definitely accept the offer without any hesitation.",
+      "annotation": "与现在事实相反的虚拟语气，be 动词用 were",
+      "subject": "大学英语",
+      "qtype": "reading",
+      "expect": [
+        "虚拟语气"
+      ]
+    },
+    {
+      "text": "I wish I ______ harder when I was young enough to change my future.",
+      "annotation": "wish 后的虚拟语气，与过去事实相反",
+      "subject": "大学英语",
+      "qtype": "reading",
+      "expect": [
+        "虚拟语气"
+      ]
+    },
+    {
+      "text": "This is the old house ______ we lived for almost ten years during our childhood.",
+      "annotation": "定语从句先行词在从句中作状语，应该用关系副词",
+      "subject": "大学英语",
+      "qtype": "reading",
+      "expect": [
+        "定语从句",
+        "关系副词"
+      ]
+    },
+    {
+      "text": "______ he will come to the conference tomorrow is still unknown to all of us.",
+      "annotation": "主语从句的引导词 whether 和 if 用法区别",
+      "subject": "大学英语",
+      "qtype": "reading",
+      "expect": [
+        "主语从句"
+      ]
+    },
+    {
+      "text": "The news ______ our team had won the championship spread quickly across campus.",
+      "annotation": "同位语从句和定语从句分不清，that 和 which 用法混淆",
+      "subject": "大学英语",
+      "qtype": "reading",
+      "expect": [
+        "同位语从句",
+        "定语从句"
+      ]
+    },
+    {
+      "text": "By the time we arrived at the theatre, the performance ______ already ______.",
+      "annotation": "主句是过去时，从句应该用过去完成时，时态判断错",
+      "subject": "大学英语",
+      "qtype": "reading",
+      "expect": [
+        "过去完成时",
+        "时态"
+      ]
+    },
+    {
+      "text": "Neither the students nor the teacher ______ aware of the change in schedule.",
+      "annotation": "主谓一致的就近原则忘了",
+      "subject": "大学英语",
+      "qtype": "reading",
+      "expect": [
+        "主谓一致",
+        "就近原则"
+      ]
+    },
+    {
+      "text": "______ from the top of the hill, the city looks absolutely magnificent at night.",
+      "annotation": "现在分词和过去分词作状语，逻辑主语判断错",
+      "subject": "大学英语",
+      "qtype": "reading",
+      "expect": [
+        "现在分词",
+        "过去分词",
+        "逻辑主语"
+      ]
+    },
+    {
+      "text": "He clearly remembered ______ the door before leaving the office that evening.",
+      "annotation": "remember to do 和 remember doing 的区别，动名词用法",
+      "subject": "大学英语",
+      "qtype": "reading",
+      "expect": [
+        "动名词"
+      ]
+    },
+    {
+      "text": "All things ______, the plan seems quite reasonable and worth trying.",
+      "annotation": "独立主格结构没掌握，非谓语作状语混淆",
+      "subject": "大学英语",
+      "qtype": "reading",
+      "expect": [
+        "独立主格"
+      ]
+    },
+    {
+      "text": "四级听力长对话第三题，问的是说话人预定的时间和价格。",
+      "annotation": "录音里的数字信息因为连读弱读没听清，细节题选错",
+      "subject": "大学英语",
+      "qtype": "listening",
+      "expect": [
+        "连读",
+        "弱读",
+        "细节题"
+      ]
+    },
+    {
+      "text": "六级听力短文第二篇，问这篇短文的主旨大意是什么。",
+      "annotation": "只抓住了中间的场景词，没听开头和结尾的总结句，主旨题选错",
+      "subject": "大学英语",
+      "qtype": "listening",
+      "expect": [
+        "主旨题"
+      ]
+    },
+    {
+      "text": "仔细阅读第二篇第三题：What is the author's attitude towards the new technology?",
+      "annotation": "推理判断题，需要根据上下文推断作者态度，我直接选了原文细节",
+      "subject": "大学英语",
+      "qtype": "reading",
+      "expect": [
+        "推理判断题"
+      ]
+    },
+    {
+      "text": "完形填空第八题：前后两句是转折关系，需要选择合适的逻辑关系词。",
+      "annotation": "上下文的逻辑衔接没看出来，选了表示因果的词",
+      "subject": "大学英语",
+      "qtype": "reading",
+      "expect": [
+        "完形填空",
+        "逻辑衔接"
+      ]
+    },
+    {
+      "text": "段落翻译：把这段关于中国传统节日的中文翻译成英文。",
+      "annotation": "逐字对译产生了中式英语，句式没调整，衔接词用得不地道",
+      "subject": "大学英语",
+      "qtype": "text",
+      "expect": [
+        "中式英语",
+        "衔接词"
+      ]
+    }
+  ]
+}

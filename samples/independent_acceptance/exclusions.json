@@ -1,0 +1,914 @@
+[
+  {
+    "source_id": "fs-id1170571655731",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+    "exercise_number": "30",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170571657429",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+    "exercise_number": "31",
+    "reason": "requires_previous_context"
+  },
+  {
+    "source_id": "fs-id1170572482622",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+    "exercise_number": "32",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170571654941",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+    "exercise_number": "33",
+    "reason": "requires_previous_context"
+  },
+  {
+    "source_id": "fs-id1170572403244",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+    "exercise_number": "34",
+    "reason": "requires_previous_context"
+  },
+  {
+    "source_id": "fs-id1170572499827",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+    "exercise_number": "37",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170572243290",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+    "exercise_number": "46",
+    "reason": "requires_shared_figure"
+  },
+  {
+    "source_id": "fs-id1170572243335",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+    "exercise_number": "47",
+    "reason": "requires_shared_figure"
+  },
+  {
+    "source_id": "fs-id1170572217395",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+    "exercise_number": "48",
+    "reason": "requires_shared_figure"
+  },
+  {
+    "source_id": "fs-id1170572217503",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+    "exercise_number": "49",
+    "reason": "requires_shared_figure"
+  },
+  {
+    "source_id": "fs-id1170572549107",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+    "exercise_number": "50",
+    "reason": "requires_shared_figure"
+  },
+  {
+    "source_id": "fs-id1170572549151",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+    "exercise_number": "51",
+    "reason": "requires_shared_figure"
+  },
+  {
+    "source_id": "fs-id1170572540767",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+    "exercise_number": "52",
+    "reason": "requires_shared_figure"
+  },
+  {
+    "source_id": "fs-id1170572540807",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+    "exercise_number": "53",
+    "reason": "requires_shared_figure"
+  },
+  {
+    "source_id": "fs-id1170572540848",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+    "exercise_number": "54",
+    "reason": "requires_shared_figure"
+  },
+  {
+    "source_id": "fs-id1170572540909",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+    "exercise_number": "55",
+    "reason": "requires_shared_figure"
+  },
+  {
+    "source_id": "fs-id1170571563288",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+    "exercise_number": "56",
+    "reason": "requires_shared_figure"
+  },
+  {
+    "source_id": "fs-id1170571563331",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+    "exercise_number": "57",
+    "reason": "requires_shared_figure"
+  },
+  {
+    "source_id": "fs-id1170571563372",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+    "exercise_number": "58",
+    "reason": "requires_shared_figure"
+  },
+  {
+    "source_id": "fs-id1170571563448",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+    "exercise_number": "59",
+    "reason": "requires_shared_figure"
+  },
+  {
+    "source_id": "fs-id1170572624069",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+    "exercise_number": "60",
+    "reason": "requires_shared_figure"
+  },
+  {
+    "source_id": "fs-id1170572624115",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+    "exercise_number": "61",
+    "reason": "requires_shared_figure"
+  },
+  {
+    "source_id": "fs-id1170572624157",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+    "exercise_number": "62",
+    "reason": "requires_shared_figure"
+  },
+  {
+    "source_id": "fs-id1170572624201",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+    "exercise_number": "63",
+    "reason": "requires_shared_figure"
+  },
+  {
+    "source_id": "fs-id1170572624244",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+    "exercise_number": "64",
+    "reason": "requires_shared_figure"
+  },
+  {
+    "source_id": "fs-id1170572380953",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+    "exercise_number": "65",
+    "reason": "requires_shared_figure"
+  },
+  {
+    "source_id": "fs-id1170572380997",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+    "exercise_number": "66",
+    "reason": "requires_shared_figure"
+  },
+  {
+    "source_id": "fs-id1170572381041",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+    "exercise_number": "67",
+    "reason": "requires_shared_figure"
+  },
+  {
+    "source_id": "fs-id1170572372618",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+    "exercise_number": "68",
+    "reason": "requires_shared_figure"
+  },
+  {
+    "source_id": "fs-id1170572372662",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+    "exercise_number": "69",
+    "reason": "requires_shared_figure"
+  },
+  {
+    "source_id": "fs-id1170572372705",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+    "exercise_number": "70",
+    "reason": "requires_shared_figure"
+  },
+  {
+    "source_id": "fs-id1170572372780",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+    "exercise_number": "71",
+    "reason": "requires_shared_figure"
+  },
+  {
+    "source_id": "fs-id1170572267940",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+    "exercise_number": "72",
+    "reason": "requires_shared_figure"
+  },
+  {
+    "source_id": "fs-id1170572267983",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+    "exercise_number": "73",
+    "reason": "requires_shared_figure"
+  },
+  {
+    "source_id": "fs-id1170572268024",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+    "exercise_number": "74",
+    "reason": "requires_shared_figure"
+  },
+  {
+    "source_id": "fs-id1170572268064",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+    "exercise_number": "75",
+    "reason": "requires_shared_figure"
+  },
+  {
+    "source_id": "fs-id1170572268108",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+    "exercise_number": "76",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170572128792",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+    "exercise_number": "81",
+    "reason": "requires_external_or_embedded_figure"
+  },
+  {
+    "source_id": "fs-id1170572478118",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+    "exercise_number": "82",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1169739285046",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules",
+    "exercise_number": "118",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1169739376112",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules",
+    "exercise_number": "119",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1169739376207",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules",
+    "exercise_number": "120",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1169739345852",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules",
+    "exercise_number": "121",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1169739275222",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules",
+    "exercise_number": "126",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1169739275301",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules",
+    "exercise_number": "127",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1169739303645",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules",
+    "exercise_number": "128",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1169739303722",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules",
+    "exercise_number": "129",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1169739350764",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules",
+    "exercise_number": "130",
+    "reason": "requires_shared_figure"
+  },
+  {
+    "source_id": "fs-id1169736593509",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules",
+    "exercise_number": "131",
+    "reason": "requires_shared_figure"
+  },
+  {
+    "source_id": "fs-id1169736593638",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules",
+    "exercise_number": "132",
+    "reason": "requires_shared_figure"
+  },
+  {
+    "source_id": "fs-id1169739305607",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules",
+    "exercise_number": "137",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1169736662312",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules",
+    "exercise_number": "138",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1169736662390",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules",
+    "exercise_number": "139",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1169739303423",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules",
+    "exercise_number": "140",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1169739303473",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules",
+    "exercise_number": "141",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1169739303559",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules",
+    "exercise_number": "142",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1169739335937",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules",
+    "exercise_number": "143",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1169736613877",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules",
+    "exercise_number": "144",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1169736613986",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules",
+    "exercise_number": "145",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1169739341321",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules",
+    "exercise_number": "146",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1169739341415",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules",
+    "exercise_number": "147",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1169739353348",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules",
+    "exercise_number": "148",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1169739353433",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules",
+    "exercise_number": "149",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170571539137",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "60",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170571543213",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "61",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170572456418",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "62",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170571580956",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "63",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170572168780",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "70",
+    "reason": "requires_external_or_embedded_figure"
+  },
+  {
+    "source_id": "fs-id1170572629207",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "71",
+    "reason": "requires_external_or_embedded_figure"
+  },
+  {
+    "source_id": "fs-id1170571689720",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "72",
+    "reason": "requires_external_or_embedded_figure"
+  },
+  {
+    "source_id": "fs-id1170571689784",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "73",
+    "reason": "requires_external_or_embedded_figure"
+  },
+  {
+    "source_id": "fs-id1170572378988",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "74",
+    "reason": "requires_external_or_embedded_figure"
+  },
+  {
+    "source_id": "fs-id1170572379047",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "75",
+    "reason": "requires_external_or_embedded_figure"
+  },
+  {
+    "source_id": "fs-id1170572347038",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "84",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170572329986",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "85",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170572434956",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "86",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170572627110",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "87",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170572351517",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "96",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170572351582",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "97",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170572558115",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "104",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170571813996",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "105",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170572307650",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "106",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170572480470",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "107",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170572218470",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "108",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170571712388",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "109",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170572309667",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "116",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170572618038",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "117",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170572554308",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "118",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170571612043",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "119",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170571817344",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "120",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170572292381",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "121",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170572373579",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "122",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170572380129",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "123",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170572173066",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "124",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170572572942",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "125",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170571614677",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "126",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170572371990",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "127",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170572560194",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "128",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170572332686",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "129",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170572274741",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "130",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170572330164",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "131",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170572557927",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "132",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170572370993",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "133",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170572353398",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "134",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170572390661",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "135",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170572447510",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "136",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170572370440",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "137",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170571543427",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "138",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170572367459",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "139",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170571838062",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "140",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170571838156",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "141",
+    "reason": "requires_external_or_embedded_figure"
+  },
+  {
+    "source_id": "fs-id1170572643334",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "142",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1170572350688",
+    "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "exercise_number": "143",
+    "reason": "shared_instruction_scope_requires_human_review"
+  },
+  {
+    "source_id": "fs-id1168326790679",
+    "source_url": "https://openstax.org/books/university-physics-volume-1/pages/3-problems",
+    "exercise_number": "31",
+    "reason": "requires_external_or_embedded_figure"
+  },
+  {
+    "source_id": "fs-id1168328977772",
+    "source_url": "https://openstax.org/books/university-physics-volume-1/pages/3-problems",
+    "exercise_number": "32",
+    "reason": "requires_external_or_embedded_figure"
+  },
+  {
+    "source_id": "fs-id1168329191384",
+    "source_url": "https://openstax.org/books/university-physics-volume-1/pages/3-problems",
+    "exercise_number": "33",
+    "reason": "requires_external_or_embedded_figure"
+  },
+  {
+    "source_id": "fs-id1168325781646",
+    "source_url": "https://openstax.org/books/university-physics-volume-1/pages/3-problems",
+    "exercise_number": "39",
+    "reason": "requires_external_or_embedded_figure"
+  },
+  {
+    "source_id": "fs-id1168326799089",
+    "source_url": "https://openstax.org/books/university-physics-volume-1/pages/3-problems",
+    "exercise_number": "46",
+    "reason": "requires_external_or_embedded_figure"
+  },
+  {
+    "source_id": "fs-id1168326917624",
+    "source_url": "https://openstax.org/books/university-physics-volume-1/pages/3-problems",
+    "exercise_number": "47",
+    "reason": "requires_external_or_embedded_figure"
+  },
+  {
+    "source_id": "fs-id1165038995758",
+    "source_url": "https://openstax.org/books/university-physics-volume-1/pages/5-problems",
+    "exercise_number": "20",
+    "reason": "requires_external_or_embedded_figure"
+  },
+  {
+    "source_id": "fs-id1165039507155",
+    "source_url": "https://openstax.org/books/university-physics-volume-1/pages/5-problems",
+    "exercise_number": "25",
+    "reason": "requires_previous_context"
+  },
+  {
+    "source_id": "fs-id1165039125323",
+    "source_url": "https://openstax.org/books/university-physics-volume-1/pages/5-problems",
+    "exercise_number": "28",
+    "reason": "requires_referenced_equation_table_or_other_problem"
+  },
+  {
+    "source_id": "fs-id1165039485302",
+    "source_url": "https://openstax.org/books/university-physics-volume-1/pages/5-problems",
+    "exercise_number": "29",
+    "reason": "requires_external_or_embedded_figure"
+  },
+  {
+    "source_id": "fs-id1165039477539",
+    "source_url": "https://openstax.org/books/university-physics-volume-1/pages/5-problems",
+    "exercise_number": "30",
+    "reason": "requires_previous_context"
+  },
+  {
+    "source_id": "fs-id1165039485447",
+    "source_url": "https://openstax.org/books/university-physics-volume-1/pages/5-problems",
+    "exercise_number": "32",
+    "reason": "requires_external_or_embedded_figure"
+  },
+  {
+    "source_id": "fs-id1165039466306",
+    "source_url": "https://openstax.org/books/university-physics-volume-1/pages/5-problems",
+    "exercise_number": "35",
+    "reason": "requires_previous_context"
+  },
+  {
+    "source_id": "fs-id1165039477078",
+    "source_url": "https://openstax.org/books/university-physics-volume-1/pages/5-problems",
+    "exercise_number": "38",
+    "reason": "requires_previous_context"
+  },
+  {
+    "source_id": "fs-id1165039478494",
+    "source_url": "https://openstax.org/books/university-physics-volume-1/pages/5-problems",
+    "exercise_number": "39",
+    "reason": "requires_external_or_embedded_figure"
+  },
+  {
+    "source_id": "fs-id1165039484519",
+    "source_url": "https://openstax.org/books/university-physics-volume-1/pages/5-problems",
+    "exercise_number": "40",
+    "reason": "requires_external_or_embedded_figure"
+  },
+  {
+    "source_id": "fs-id1165036895152",
+    "source_url": "https://openstax.org/books/university-physics-volume-1/pages/5-problems",
+    "exercise_number": "44",
+    "reason": "requires_previous_context"
+  },
+  {
+    "source_id": "fs-id1165038378293",
+    "source_url": "https://openstax.org/books/university-physics-volume-1/pages/5-problems",
+    "exercise_number": "50",
+    "reason": "requires_external_or_embedded_figure"
+  },
+  {
+    "source_id": "fs-id1165038232194",
+    "source_url": "https://openstax.org/books/university-physics-volume-1/pages/5-problems",
+    "exercise_number": "53",
+    "reason": "requires_external_or_embedded_figure"
+  },
+  {
+    "source_id": "fs-id1165036892618",
+    "source_url": "https://openstax.org/books/university-physics-volume-1/pages/5-problems",
+    "exercise_number": "55",
+    "reason": "requires_external_or_embedded_figure"
+  },
+  {
+    "source_id": "fs-id1165036763040",
+    "source_url": "https://openstax.org/books/university-physics-volume-1/pages/5-problems",
+    "exercise_number": "59",
+    "reason": "requires_referenced_equation_table_or_other_problem"
+  },
+  {
+    "source_id": "fs-id1165038377577",
+    "source_url": "https://openstax.org/books/university-physics-volume-1/pages/5-problems",
+    "exercise_number": "61",
+    "reason": "requires_referenced_equation_table_or_other_problem"
+  },
+  {
+    "source_id": "fs-id1165036893624",
+    "source_url": "https://openstax.org/books/university-physics-volume-1/pages/5-problems",
+    "exercise_number": "62",
+    "reason": "requires_referenced_equation_table_or_other_problem"
+  },
+  {
+    "source_id": "fs-id1165036799011",
+    "source_url": "https://openstax.org/books/university-physics-volume-1/pages/5-problems",
+    "exercise_number": "63",
+    "reason": "requires_external_or_embedded_figure"
+  },
+  {
+    "source_id": "fs-id1165036900436",
+    "source_url": "https://openstax.org/books/university-physics-volume-1/pages/5-problems",
+    "exercise_number": "65",
+    "reason": "requires_external_or_embedded_figure"
+  },
+  {
+    "source_id": "fs-id1165038304565",
+    "source_url": "https://openstax.org/books/university-physics-volume-1/pages/5-problems",
+    "exercise_number": "66",
+    "reason": "requires_external_or_embedded_figure"
+  },
+  {
+    "source_id": "fs-id1165039077205",
+    "source_url": "https://openstax.org/books/university-physics-volume-1/pages/5-problems",
+    "exercise_number": "70",
+    "reason": "requires_external_or_embedded_figure"
+  },
+  {
+    "source_id": "fs-id1165039245852",
+    "source_url": "https://openstax.org/books/university-physics-volume-1/pages/5-problems",
+    "exercise_number": "71",
+    "reason": "requires_external_or_embedded_figure"
+  },
+  {
+    "source_id": "fs-id1165035974202",
+    "source_url": "https://openstax.org/books/university-physics-volume-1/pages/8-problems",
+    "exercise_number": "19",
+    "reason": "requires_referenced_equation_table_or_other_problem"
+  },
+  {
+    "source_id": "fs-id1165039195103",
+    "source_url": "https://openstax.org/books/university-physics-volume-1/pages/8-problems",
+    "exercise_number": "20",
+    "reason": "requires_referenced_equation_table_or_other_problem"
+  },
+  {
+    "source_id": "fs-id1165039094222",
+    "source_url": "https://openstax.org/books/university-physics-volume-1/pages/8-problems",
+    "exercise_number": "30",
+    "reason": "requires_external_or_embedded_figure"
+  },
+  {
+    "source_id": "fs-id1165038307740",
+    "source_url": "https://openstax.org/books/university-physics-volume-1/pages/8-problems",
+    "exercise_number": "38",
+    "reason": "requires_external_or_embedded_figure"
+  },
+  {
+    "source_id": "fs-id1165037925102",
+    "source_url": "https://openstax.org/books/university-physics-volume-1/pages/8-problems",
+    "exercise_number": "42",
+    "reason": "requires_external_or_embedded_figure"
+  },
+  {
+    "source_id": "fs-id1165037923487",
+    "source_url": "https://openstax.org/books/university-physics-volume-1/pages/8-problems",
+    "exercise_number": "43",
+    "reason": "requires_external_or_embedded_figure"
+  },
+  {
+    "source_id": "fs-id1165037089798",
+    "source_url": "https://openstax.org/books/university-physics-volume-1/pages/8-problems",
+    "exercise_number": "49",
+    "reason": "requires_external_or_embedded_figure"
+  },
+  {
+    "source_id": "fs-id1165036976395",
+    "source_url": "https://openstax.org/books/university-physics-volume-1/pages/8-problems",
+    "exercise_number": "50",
+    "reason": "requires_external_or_embedded_figure"
+  },
+  {
+    "source_id": "fs-id1165038370525",
+    "source_url": "https://openstax.org/books/university-physics-volume-1/pages/8-problems",
+    "exercise_number": "60",
+    "reason": "requires_external_or_embedded_figure"
+  },
+  {
+    "source_id": "fs-id1165037217195",
+    "source_url": "https://openstax.org/books/university-physics-volume-1/pages/8-problems",
+    "exercise_number": "64",
+    "reason": "requires_external_or_embedded_figure"
+  },
+  {
+    "source_id": "fs-id1165037857365",
+    "source_url": "https://openstax.org/books/university-physics-volume-1/pages/8-problems",
+    "exercise_number": "68",
+    "reason": "requires_external_or_embedded_figure"
+  }
+]

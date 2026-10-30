@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "collector": "tools/collect_independent_corpus.py",
+  "question_count": 190,
+  "subjects": {
+    "大学物理": 122,
+    "高等数学": 68
+  },
+  "language": "en",
+  "human_gold_count": 0,
+  "english_language_course_questions": 0,
+  "label_status": "source_derived",
+  "source_labels_meaning": "Original chapter and section titles only; no mapping to classifier labels.",
+  "license": "CC BY-NC-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "license_scope": "Only collected OpenStax course material and its corpus formatting; not application source code.",
+  "permitted_use": "Attributed noncommercial educational research; adapted corpus remains under CC BY-NC-SA 4.0.",
+  "limitations": [
+    "No human-verified knowledge, feature, difficulty or error-cause gold labels.",
+    "English-language calculus and physics questions are not college-English language-course questions.",
+    "No translation or generated variants; all original subparts remain one numbered source exercise.",
+    "Figure-dependent and external-reference-dependent exercises are excluded, with reasons retained.",
+    "Prose exercises following shared instructions without a clear scope boundary are withheld for human review.",
+    "Answers are stored separately as official source links where available, not included in classifier input.",
+    "English source wording may not match the application's Chinese keyword dictionaries; do not tune on holdout."
+  ],
+  "exclusion_count": 152,
+  "exact_duplicate_count": 0,
+  "sources": [
+    {
+      "url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+      "resolved_url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+      "sha256": "bd5349bd94838745d1155834594325569313f2440bb3911ecddd0dd2e865f9ba",
+      "retrieved_at": "2026-10-29T03:49:59.779344+00:00",
+      "bytes": 585933,
+      "file": "sources/calculus-volume-1_2-2-the-limit-of-a-function.html"
+    },
+    {
+      "url": "https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules",
+      "resolved_url": "https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules",
+      "sha256": "603aa23a4f17bee6bb2c99c0b7f288ed6ca95713dc780a3961d5fb5ba3a086f1",
+      "retrieved_at": "2026-10-29T03:49:59.747278+00:00",
+      "bytes": 613351,
+      "file": "sources/calculus-volume-1_3-3-differentiation-rules.html"
+    },
+    {
+      "url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+      "resolved_url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+      "sha256": "7865324090e3921ac87af0d9d9c23ca22f535ff512cc2a1cf4328ca3aa70f582",
+      "retrieved_at": "2026-10-29T03:49:59.706917+00:00",
+      "bytes": 656620,
+      "file": "sources/calculus-volume-1_5-2-the-definite-integral.html"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/3-problems",
+      "resolved_url": "https://openstax.org/books/university-physics-volume-1/pages/3-problems",
+      "sha256": "60b1c7fa7896c0448a1809937fafbf8258ae942ad29c0a9b8090a8cf7a686990",
+      "retrieved_at": "2026-10-29T03:49:59.531485+00:00",
+      "bytes": 350577,
+      "file": "sources/university-physics-volume-1_3-problems.html"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/5-problems",
+      "resolved_url": "https://openstax.org/books/university-physics-volume-1/pages/5-problems",
+      "sha256": "33874ccd458d860bfa9d354a0d24d84c2183e9a64ef42834cc040184ebad05c0",
+      "retrieved_at": "2026-10-29T03:50:00.903664+00:00",
+      "bytes": 375837,
+      "file": "sources/university-physics-volume-1_5-problems.html"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/8-problems",
+      "resolved_url": "https://openstax.org/books/university-physics-volume-1/pages/8-problems",
+      "sha256": "25375ce9672aa1acf57888087d4e225b614b40ddc4a1165dce2c7caf03077820",
+      "retrieved_at": "2026-10-29T03:50:01.370957+00:00",
+      "bytes": 376542,
+      "file": "sources/university-physics-volume-1_8-problems.html"
+    }
+  ],
+  "dataset_files": {
+    "questions.jsonl": "16ea6e6a3a6e91065f9afcc334ff3c2604a4c90375c2f3031d76dc40ce71a053",
+    "answers.jsonl": "1f9bae4727b56dfaa694b0a82afc31a6b0b470d5443e2268e824f284a9c34f79",
+    "splits.json": "710480dea48168960cf1cac734f15ac469741142a11c1e13c459adbab154ff51"
+  }
+}

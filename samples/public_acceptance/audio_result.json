@@ -1,0 +1,11 @@
+{
+  "id": "audio_dunkley_snippet",
+  "path": "samples\\public_acceptance\\media\\audio_dunkley_snippet.wav",
+  "status": "model_not_ready",
+  "duration_seconds": 31.880997732426305,
+  "sample_rate": 44100,
+  "channels": 1,
+  "elapsed_ms": 6.422299993573688,
+  "transcript": "",
+  "error": "audio 本地模型目录为空：C:\\Users\\Schnappi SaMa\\.mistake_classifier\\models\\audio。请先准备模型后再识别。"
+}

@@ -1,0 +1,4 @@
+# Optional local English listening transcription.
+# The model is prepared separately in MC_MODEL_DIR/audio (default: workspace/models/audio) and is never
+# downloaded by the application during recognition.
+faster-whisper==1.2.1

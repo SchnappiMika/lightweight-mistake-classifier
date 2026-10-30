@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "question_count": 30,
+  "passage_count": 30,
+  "article_count": 30,
+  "subject": "大学英语",
+  "language": "en",
+  "selection_policy": "Original JSON article order; first 30 distinct articles; first nonempty unique paragraph and its first answerable question with exact valid answer spans. No classifier output is consulted.",
+  "original_dataset": "SQuAD 1.1 development set",
+  "generated_question_count": 0,
+  "human_gold_count": 0,
+  "original_human_answer_span_question_count": 30,
+  "label_status": "source_derived",
+  "source_labels_meaning": "Original article and dataset reading-comprehension task; not human-verified classifier knowledge labels.",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "license_evidence": {
+    "url": "https://rajpurkar.github.io/SQuAD-explorer/",
+    "file": "sources/official_homepage.html",
+    "declaration": "Download a copy of the dataset (distributed under the CC BY-SA 4.0 license)",
+    "repository_license_distinction": "Repository LICENSE is MIT for explorer software; dataset license is independently stated on the official homepage."
+  },
+  "license_scope": "Only this collected SQuAD/Wikipedia reading corpus; not the application's source code or OpenStax corpus.",
+  "limitations": [
+    "Public reading-comprehension material, not authentic local university examinations.",
+    "Original human questions and answer spans exist, but there are no human classifier knowledge/error/difficulty labels.",
+    "Wikipedia links identify original article titles; exact historical revision is not specified by this source JSON.",
+    "Raw original source JSON contains answers and must never be used as classifier input; use questions.jsonl only.",
+    "Answers are kept solely in answers.jsonl and raw source; do not train or tune on holdout."
+  ],
+  "sources": [
+    {
+      "url": "https://rajpurkar.github.io/SQuAD-explorer/dataset/dev-v1.1.json",
+      "resolved_url": "https://rajpurkar.github.io/SQuAD-explorer/dataset/dev-v1.1.json",
+      "retrieved_at": "2026-10-29T03:56:38.093674+00:00",
+      "bytes": 4854279,
+      "sha256": "95aa6a52d5d6a735563366753ca50492a658031da74f301ac5238b03966972c9",
+      "file": "sources/dev-v1.1.json"
+    },
+    {
+      "url": "https://rajpurkar.github.io/SQuAD-explorer/",
+      "resolved_url": "https://rajpurkar.github.io/SQuAD-explorer/",
+      "retrieved_at": "2026-10-29T03:56:39.049595+00:00",
+      "bytes": 141436,
+      "sha256": "989f7e43f27faa490ed9fc8fb440e6f0aa791c49131346a27b8361deb4a18baf",
+      "file": "sources/official_homepage.html"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/rajpurkar/SQuAD-explorer/master/README.md",
+      "resolved_url": "https://raw.githubusercontent.com/rajpurkar/SQuAD-explorer/master/README.md",
+      "retrieved_at": "2026-10-29T03:56:39.601651+00:00",
+      "bytes": 1370,
+      "sha256": "b03f46bef006f50547b9dd2abe2e8095f9751fc45678ab0fcb750fa524f557cf",
+      "file": "sources/official_README.md"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/rajpurkar/SQuAD-explorer/master/LICENSE",
+      "resolved_url": "https://raw.githubusercontent.com/rajpurkar/SQuAD-explorer/master/LICENSE",
+      "retrieved_at": "2026-10-29T03:56:40.167428+00:00",
+      "bytes": 1073,
+      "sha256": "9c92e90621a47dc8508ddd78f0ee41a7b6a8fd5d37fd00709ff1c6eb1a7d7019",
+      "file": "sources/repository_software_LICENSE.txt"
+    }
+  ],
+  "dataset_files": {
+    "questions.jsonl": "0cf682356bcbe48d870b10d9d888d4c41a4009a1bbf0adff481c0750442d8c8a",
+    "answers.jsonl": "1bc0ec47e67099a3d0beb301c2632c9a0096b15d61c694d6d2d77541e7dd2dba",
+    "splits.json": "fe5c4166e345ee1104eb4fa3bcbd4cf78ee7ab31e7d14b22f9dc1b2e98664790"
+  }
+}

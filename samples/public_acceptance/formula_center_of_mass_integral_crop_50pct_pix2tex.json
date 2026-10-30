@@ -1,0 +1,12 @@
+{
+  "text": "S\\,=\\,\\int_{a}^{b}f(x)\\mathrm{d}x",
+  "draft": "S\\,=\\,\\int_{a}^{b}f(x)\\mathrm{d}x",
+  "media_hash": "5b204d837e0f853ea324d0b90bcd3dd084e48db05a2ec68b2caf20324da7f7a3",
+  "engine": "pix2tex 0.1.4 / CPU",
+  "elapsed_ms": 20640.77019999968,
+  "confirmed": false,
+  "created_at": 1793236418.3512516,
+  "error": "",
+  "applied_text": "",
+  "review_status": "待人工复核"
+}

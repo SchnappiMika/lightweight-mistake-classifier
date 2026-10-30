@@ -1,0 +1,385 @@
+{
+  "generated_at": "2026-10-30T04:30:28.763998+00:00",
+  "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "source_manifest": "D:\\桌面\\校创\\mistake_classifier\\samples\\public_acceptance\\manifest.json",
+  "manifest_sha256": "2405559d9eb09241d748950db60995b7773fd5fd4c0de3cb14568c8147321420",
+  "limitations": "新模型进程不等于操作系统磁盘冷态；公开素材未构成独立准确率验收；原1秒指标不变",
+  "modes": [
+    {
+      "mode": "reuse_models",
+      "results": [
+        {
+          "id": "formula_center_of_mass",
+          "repetition": 0,
+          "recognized": true,
+          "classified": true,
+          "error": "",
+          "input": {
+            "id": "formula_center_of_mass",
+            "title": "File:Center of mass using integral.png",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Center_of_mass_using_integral.png",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Center_of_mass_using_integral.png",
+            "license": "CC BY-SA 4.0",
+            "creator": "Wikimedia Commons contributor",
+            "subject": "高等数学",
+            "qtype": "formula",
+            "review_status": "待人工复核",
+            "local_path": "samples\\public_acceptance\\media\\formula_center_of_mass.png",
+            "sha256": "1471411eb9f98199ae7b46b2bc521a02ee46d4eb2997206f74e14eaa10d2ec30",
+            "download_status": "downloaded",
+            "error": "",
+            "gold_knowledge": "",
+            "gold_core_features": "",
+            "permission_scope": "公开教学验证候选；提交前需按许可证复核"
+          },
+          "recognition_text": "\\begin{array}{c}{{\\phi^{\\dagger}\\int_{a}^{\\dagger}\\left\\{s i\\right\\}a}}\\\\ {{\\bar{s}_{\\bot}^{\\dagger}\\left\\{\\bar{s}_{\\bot}^{\\dagger}\\left(\\bar{s}_{\\bot}^{\\dagger}\\right.\\left.\\phantom{-}\\frac{\\partial}{\\partial b}}}\\\\ {{\\left.\\bar{s}_{\\bot}^{\\dagger}\\frac{\\left\\{\\bar{s}_{\\bot}^{\\dagger}\\right\\}}{\\bar{\\partial}_{\\sinh}^{\\dagger}\\left(\\bar{s}_{\\bot}^{\\dagger}\\right)}}}\\end{array}",
+          "recognition_ms": 72715.90070001548,
+          "confirmed": false,
+          "labels": {
+            "knowledge": "多元函数微分学"
+          },
+          "unreviewed_media": [
+            "formula"
+          ],
+          "source_unchanged": true,
+          "total_ms": 75706.5195000032
+        },
+        {
+          "id": "formula_leibniz_notation",
+          "repetition": 0,
+          "recognized": true,
+          "classified": true,
+          "error": "",
+          "input": {
+            "id": "formula_leibniz_notation",
+            "title": "File:LeibnizNotation.png",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/LeibnizNotation.png",
+            "source_url": "https://commons.wikimedia.org/wiki/File:LeibnizNotation.png",
+            "license": "CC BY-SA 4.0",
+            "creator": "Wikimedia Commons contributor",
+            "subject": "高等数学",
+            "qtype": "formula",
+            "review_status": "待人工复核",
+            "local_path": "samples\\public_acceptance\\media\\formula_leibniz_notation.png",
+            "sha256": "f39607d82117c13123dede2ca19ce638c8225f29db66043ed7d2fd70ce491ca5",
+            "download_status": "downloaded",
+            "error": "",
+            "gold_knowledge": "",
+            "gold_core_features": "",
+            "permission_scope": "公开教学验证候选；提交前需按许可证复核"
+          },
+          "recognition_text": "\\frac{d x}{d y}\\qquad\\frac{d^{2}y}{d x^{2}}",
+          "recognition_ms": 2987.2837999719195,
+          "confirmed": false,
+          "labels": {
+            "knowledge": "导数与微分"
+          },
+          "unreviewed_media": [
+            "formula"
+          ],
+          "source_unchanged": true,
+          "total_ms": 3004.240899987053
+        },
+        {
+          "id": "figure_intro_physics_42",
+          "repetition": 0,
+          "recognized": true,
+          "classified": true,
+          "error": "",
+          "input": {
+            "id": "figure_intro_physics_42",
+            "title": "File:Introductory Physics fig 4.2.png",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Introductory_Physics_fig_4.2.png",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Introductory_Physics_fig_4.2.png",
+            "license": "CC BY-SA 3.0",
+            "creator": "David J. Raymond",
+            "subject": "大学物理",
+            "qtype": "figure",
+            "review_status": "待人工复核",
+            "local_path": "samples/public_acceptance/media/figure_1.png",
+            "sha256": "5851e6955d7f61e6293bd54e9345fc3b3c1b7e7036fbd4b4e8ad696a74b6c3d2",
+            "download_status": "downloaded",
+            "error": "",
+            "gold_knowledge": "",
+            "gold_core_features": "",
+            "permission_scope": "公开教学验证候选；提交前需按许可证复核"
+          },
+          "recognition_text": "Δ t\nt⁵\nΔ t’\nprimed coord\nsys moving\nunprimed coord\nsys moving at\nspeed U\nat\nspeed -U\nworld line of object\nworld line of object\nmoving at speed\nmoving at speed v\nv' = ν - U\nx, x'\nx, x'\n2_\n2",
+          "recognition_ms": 3075.9703000076115,
+          "confirmed": false,
+          "labels": {
+            "knowledge": "质点运动学"
+          },
+          "unreviewed_media": [
+            "image"
+          ],
+          "source_unchanged": true,
+          "total_ms": 3249.267700011842
+        },
+        {
+          "id": "figure_reflection_boundary",
+          "repetition": 0,
+          "recognized": true,
+          "classified": false,
+          "error": "识别已返回，但未匹配有效分类标签",
+          "input": {
+            "id": "figure_reflection_boundary",
+            "title": "File:Eight Lectures on Theoretical Physics illo085.png",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Eight_Lectures_on_Theoretical_Physics_illo085.png",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Eight_Lectures_on_Theoretical_Physics_illo085.png",
+            "license": "Public domain",
+            "creator": "Public domain source",
+            "subject": "大学物理",
+            "qtype": "figure",
+            "review_status": "待人工复核",
+            "local_path": "samples/public_acceptance/media/figure_2.png",
+            "sha256": "f0388d26c88c34f8c8778426460f3ccf30507ed118dbb7b55b9a0df1622a2c6d",
+            "download_status": "downloaded",
+            "error": "",
+            "gold_knowledge": "",
+            "gold_core_features": "",
+            "permission_scope": "公开教学验证候选；提交前需按许可证复核"
+          },
+          "recognition_text": "FIRST MEDIUM\nRν\ndΩ\ndΩ\n6\n6\n-BOUNDARY SURFACE\n0\n8ECONDMEDIUM\nRv'\ndΩ'\nFig. 1.",
+          "recognition_ms": 2764.1700000385754,
+          "confirmed": false,
+          "labels": {},
+          "unreviewed_media": [
+            "image"
+          ],
+          "source_unchanged": true,
+          "total_ms": 2783.0400000093505
+        },
+        {
+          "id": "audio_dunkley_snippet",
+          "repetition": 0,
+          "recognized": true,
+          "classified": true,
+          "error": "",
+          "input": {
+            "id": "audio_dunkley_snippet",
+            "title": "File:Audio snippet of J. R. Dunkley.wav",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Audio_snippet_of_J._R._Dunkley.wav",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Audio_snippet_of_J._R._Dunkley.wav",
+            "license": "CC BY-SA 4.0",
+            "creator": "Feuras",
+            "subject": "大学英语",
+            "qtype": "listening",
+            "review_status": "待人工复核",
+            "local_path": "samples\\public_acceptance\\media\\audio_dunkley_snippet.wav",
+            "sha256": "f2977416827d08bac56ee9d0cde47cb130b9d594cd6aa23e44cacbab3fcc1dbe",
+            "download_status": "downloaded",
+            "error": "",
+            "gold_knowledge": "",
+            "gold_core_features": "",
+            "permission_scope": "公开教学验证候选；提交前需按许可证复核"
+          },
+          "recognition_text": "Suppose that the reversible part of the generator is rapidly pumping fluctuations into a particular mode family. For example, by parametric driving or coupling to an external source, the dissipative part, G, governs the actual relaxation and information received in that channel. The rate at which the fluctuations are converted into received information is then controlled by the Fisher spectral density and obeys the early time power law. In that sense, the spectral tail is a fingerprint of how efficiently source information is transferred into data information in a given",
+          "recognition_ms": 3077.467600000091,
+          "confirmed": false,
+          "labels": {
+            "knowledge": "听力理解"
+          },
+          "unreviewed_media": [
+            "audio"
+          ],
+          "source_unchanged": true,
+          "total_ms": 3133.125399996061
+        },
+        {
+          "id": "formula_center_of_mass",
+          "repetition": 1,
+          "recognized": true,
+          "classified": true,
+          "error": "",
+          "input": {
+            "id": "formula_center_of_mass",
+            "title": "File:Center of mass using integral.png",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Center_of_mass_using_integral.png",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Center_of_mass_using_integral.png",
+            "license": "CC BY-SA 4.0",
+            "creator": "Wikimedia Commons contributor",
+            "subject": "高等数学",
+            "qtype": "formula",
+            "review_status": "待人工复核",
+            "local_path": "samples\\public_acceptance\\media\\formula_center_of_mass.png",
+            "sha256": "1471411eb9f98199ae7b46b2bc521a02ee46d4eb2997206f74e14eaa10d2ec30",
+            "download_status": "downloaded",
+            "error": "",
+            "gold_knowledge": "",
+            "gold_core_features": "",
+            "permission_scope": "公开教学验证候选；提交前需按许可证复核"
+          },
+          "recognition_text": "\\begin{array}{c}{{\\phi^{\\dagger}\\int_{a}^{\\dagger}\\left\\{s i\\right\\}a}}\\\\ {{\\bar{s}_{\\bot}^{\\dagger}\\left\\{\\bar{s}_{\\bot}^{\\dagger}\\left(\\bar{s}_{\\bot}^{\\dagger}\\right.\\left.\\phantom{-}\\frac{\\partial}{\\partial b}}}\\\\ {{\\left.\\bar{s}_{\\bot}^{\\dagger}\\frac{\\left\\{\\bar{s}_{\\bot}^{\\dagger}\\right\\}}{\\bar{\\partial}_{\\sinh}^{\\dagger}\\left(\\bar{s}_{\\bot}^{\\dagger}\\right)}}}\\end{array}",
+          "recognition_ms": 21674.722900032066,
+          "confirmed": false,
+          "labels": {
+            "knowledge": "多元函数微分学"
+          },
+          "unreviewed_media": [
+            "formula"
+          ],
+          "source_unchanged": true,
+          "total_ms": 21683.567800035235
+        },
+        {
+          "id": "formula_leibniz_notation",
+          "repetition": 1,
+          "recognized": true,
+          "classified": true,
+          "error": "",
+          "input": {
+            "id": "formula_leibniz_notation",
+            "title": "File:LeibnizNotation.png",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/LeibnizNotation.png",
+            "source_url": "https://commons.wikimedia.org/wiki/File:LeibnizNotation.png",
+            "license": "CC BY-SA 4.0",
+            "creator": "Wikimedia Commons contributor",
+            "subject": "高等数学",
+            "qtype": "formula",
+            "review_status": "待人工复核",
+            "local_path": "samples\\public_acceptance\\media\\formula_leibniz_notation.png",
+            "sha256": "f39607d82117c13123dede2ca19ce638c8225f29db66043ed7d2fd70ce491ca5",
+            "download_status": "downloaded",
+            "error": "",
+            "gold_knowledge": "",
+            "gold_core_features": "",
+            "permission_scope": "公开教学验证候选；提交前需按许可证复核"
+          },
+          "recognition_text": "\\frac{d x}{d y}\\qquad\\frac{d^{2}y}{d x^{2}}",
+          "recognition_ms": 652.2420000401326,
+          "confirmed": false,
+          "labels": {
+            "knowledge": "导数与微分"
+          },
+          "unreviewed_media": [
+            "formula"
+          ],
+          "source_unchanged": true,
+          "total_ms": 665.8158000209369
+        },
+        {
+          "id": "figure_intro_physics_42",
+          "repetition": 1,
+          "recognized": true,
+          "classified": true,
+          "error": "",
+          "input": {
+            "id": "figure_intro_physics_42",
+            "title": "File:Introductory Physics fig 4.2.png",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Introductory_Physics_fig_4.2.png",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Introductory_Physics_fig_4.2.png",
+            "license": "CC BY-SA 3.0",
+            "creator": "David J. Raymond",
+            "subject": "大学物理",
+            "qtype": "figure",
+            "review_status": "待人工复核",
+            "local_path": "samples/public_acceptance/media/figure_1.png",
+            "sha256": "5851e6955d7f61e6293bd54e9345fc3b3c1b7e7036fbd4b4e8ad696a74b6c3d2",
+            "download_status": "downloaded",
+            "error": "",
+            "gold_knowledge": "",
+            "gold_core_features": "",
+            "permission_scope": "公开教学验证候选；提交前需按许可证复核"
+          },
+          "recognition_text": "Δ t\nt⁵\nΔ t’\nprimed coord\nsys moving\nunprimed coord\nsys moving at\nspeed U\nat\nspeed -U\nworld line of object\nworld line of object\nmoving at speed\nmoving at speed v\nv' = ν - U\nx, x'\nx, x'\n2_\n2",
+          "recognition_ms": 3362.2487999964505,
+          "confirmed": false,
+          "labels": {
+            "knowledge": "质点运动学"
+          },
+          "unreviewed_media": [
+            "image"
+          ],
+          "source_unchanged": true,
+          "total_ms": 3375.2642000326887
+        },
+        {
+          "id": "figure_reflection_boundary",
+          "repetition": 1,
+          "recognized": true,
+          "classified": false,
+          "error": "识别已返回，但未匹配有效分类标签",
+          "input": {
+            "id": "figure_reflection_boundary",
+            "title": "File:Eight Lectures on Theoretical Physics illo085.png",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Eight_Lectures_on_Theoretical_Physics_illo085.png",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Eight_Lectures_on_Theoretical_Physics_illo085.png",
+            "license": "Public domain",
+            "creator": "Public domain source",
+            "subject": "大学物理",
+            "qtype": "figure",
+            "review_status": "待人工复核",
+            "local_path": "samples/public_acceptance/media/figure_2.png",
+            "sha256": "f0388d26c88c34f8c8778426460f3ccf30507ed118dbb7b55b9a0df1622a2c6d",
+            "download_status": "downloaded",
+            "error": "",
+            "gold_knowledge": "",
+            "gold_core_features": "",
+            "permission_scope": "公开教学验证候选；提交前需按许可证复核"
+          },
+          "recognition_text": "FIRST MEDIUM\nRν\ndΩ\ndΩ\n6\n6\n-BOUNDARY SURFACE\n0\n8ECONDMEDIUM\nRv'\ndΩ'\nFig. 1.",
+          "recognition_ms": 3324.7497000265867,
+          "confirmed": false,
+          "labels": {},
+          "unreviewed_media": [
+            "image"
+          ],
+          "source_unchanged": true,
+          "total_ms": 3334.0462999767624
+        },
+        {
+          "id": "audio_dunkley_snippet",
+          "repetition": 1,
+          "recognized": true,
+          "classified": true,
+          "error": "",
+          "input": {
+            "id": "audio_dunkley_snippet",
+            "title": "File:Audio snippet of J. R. Dunkley.wav",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Audio_snippet_of_J._R._Dunkley.wav",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Audio_snippet_of_J._R._Dunkley.wav",
+            "license": "CC BY-SA 4.0",
+            "creator": "Feuras",
+            "subject": "大学英语",
+            "qtype": "listening",
+            "review_status": "待人工复核",
+            "local_path": "samples\\public_acceptance\\media\\audio_dunkley_snippet.wav",
+            "sha256": "f2977416827d08bac56ee9d0cde47cb130b9d594cd6aa23e44cacbab3fcc1dbe",
+            "download_status": "downloaded",
+            "error": "",
+            "gold_knowledge": "",
+            "gold_core_features": "",
+            "permission_scope": "公开教学验证候选；提交前需按许可证复核"
+          },
+          "recognition_text": "Suppose that the reversible part of the generator is rapidly pumping fluctuations into a particular mode family. For example, by parametric driving or coupling to an external source, the dissipative part, G, governs the actual relaxation and information received in that channel. The rate at which the fluctuations are converted into received information is then controlled by the Fisher spectral density and obeys the early time power law. In that sense, the spectral tail is a fingerprint of how efficiently source information is transferred into data information in a given",
+          "recognition_ms": 1946.5867999824695,
+          "confirmed": false,
+          "labels": {
+            "knowledge": "听力理解"
+          },
+          "unreviewed_media": [
+            "audio"
+          ],
+          "source_unchanged": true,
+          "total_ms": 1967.8906999761239
+        }
+      ],
+      "summary": {
+        "attempted": 10,
+        "recognized": 10,
+        "classified": 8,
+        "failures": 2,
+        "mean_item_ms": 11890.277830004925,
+        "p95_item_ms": 75706.5195000032,
+        "batch_ms": 119867.83949995879,
+        "batch_ms_per_item": 11986.783949995879,
+        "one_second_requirement_met": false
+      },
+      "models": "C:\\Users\\Schnappi SaMa\\.mistake_classifier\\models",
+      "new_question_per_attempt": true,
+      "timing_scope": "每题含附件导入复制、识别、预处理、分类与保存；批次含模型退出；不含人工思考或应用启动"
+    }
+  ]
+}

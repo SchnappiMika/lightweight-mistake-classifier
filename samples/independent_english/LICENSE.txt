@@ -1,0 +1,6 @@
+Collected SQuAD dataset / Wikipedia passages: CC BY-SA 4.0.
+https://creativecommons.org/licenses/by-sa/4.0/
+SQuAD: Stanford Question Answering Dataset, Rajpurkar et al.; passages: English Wikipedia contributors.
+Original official data, source URLs, article titles, and attribution are preserved per record.
+Adaptation only joins the original passage and human question; no generated questions.
+This applies only to collected text data. It does not change the software license.

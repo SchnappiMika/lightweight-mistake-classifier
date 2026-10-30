@@ -1,0 +1,48 @@
+MIT License
+
+Copyright (c) 2026 大学生轻量化错题自动分类管理系统项目组
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---------------------------------------------------------------------------
+第三方依赖的许可证（均与 MIT 兼容，可放心用于开源与商用）：
+
+  jieba          MIT
+  scikit-learn   BSD-3-Clause
+  numpy / scipy  BSD-3-Clause
+  pandas         BSD-3-Clause
+  openpyxl       MIT
+  PyQt5          GPL v3 / 商业双许可  ← 注意
+
+关于 PyQt5 的重要提示：
+  PyQt5 采用 GPL v3 与商业许可双授权。若以 GPL v3 条款使用 PyQt5，
+  则**分发**本软件的二进制包时，整体需以 GPL v3 兼容的条款开源。
+  本项目源码采用 MIT（比 GPL 更宽松，与 GPL v3 兼容，可被合并进 GPL 作品），
+  因此源码分发不受影响；但若要分发 PyInstaller 打包出的 exe / app，
+  应当一并遵守 GPL v3（提供对应源码），或改用 LGPL 授权的 PySide6。
+
+  需求书里写的是"采用 MIT/Apache 2.0 等开源协议"开源全部代码——这一点
+  本项目做到了（源码 MIT）。上面这条提示针对的是"分发打包产物"的场景，
+  结题若涉及对外发布 exe，请留意。
+
+可选依赖（未安装则不涉及）：
+  pix2tex        MIT
+  PaddleOCR      Apache-2.0
+  faster-whisper MIT   /  openai-whisper MIT
+  NLTK           Apache-2.0

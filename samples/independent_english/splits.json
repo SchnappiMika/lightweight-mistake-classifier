@@ -1,0 +1,73 @@
+{
+  "policy": "Article groups are disjoint; selection precedes classification.",
+  "group_assignments": {
+    "squad_1_1:article:Super_Bowl_50": "development",
+    "squad_1_1:article:Warsaw": "validation",
+    "squad_1_1:article:Normans": "holdout",
+    "squad_1_1:article:Nikola_Tesla": "development",
+    "squad_1_1:article:Computational_complexity_theory": "validation",
+    "squad_1_1:article:Teacher": "holdout",
+    "squad_1_1:article:Martin_Luther": "development",
+    "squad_1_1:article:Southern_California": "validation",
+    "squad_1_1:article:Sky_(United_Kingdom)": "holdout",
+    "squad_1_1:article:Victoria_(Australia)": "development",
+    "squad_1_1:article:Huguenot": "validation",
+    "squad_1_1:article:Steam_engine": "holdout",
+    "squad_1_1:article:Oxygen": "development",
+    "squad_1_1:article:1973_oil_crisis": "validation",
+    "squad_1_1:article:Apollo_program": "holdout",
+    "squad_1_1:article:European_Union_law": "development",
+    "squad_1_1:article:Amazon_rainforest": "validation",
+    "squad_1_1:article:Ctenophora": "holdout",
+    "squad_1_1:article:Fresno,_California": "development",
+    "squad_1_1:article:Packet_switching": "validation",
+    "squad_1_1:article:Black_Death": "holdout",
+    "squad_1_1:article:Geology": "development",
+    "squad_1_1:article:Newcastle_upon_Tyne": "validation",
+    "squad_1_1:article:Victoria_and_Albert_Museum": "holdout",
+    "squad_1_1:article:American_Broadcasting_Company": "development",
+    "squad_1_1:article:Genghis_Khan": "validation",
+    "squad_1_1:article:Pharmacy": "holdout",
+    "squad_1_1:article:Immune_system": "development",
+    "squad_1_1:article:Civil_disobedience": "validation",
+    "squad_1_1:article:Construction": "holdout"
+  },
+  "partitions": {
+    "development": [
+      "squad_1_1_56be4db0acb8001400a502ec",
+      "squad_1_1_56df9e2838dc4217001520f6",
+      "squad_1_1_56f7c651aef2371900625bf5",
+      "squad_1_1_570d2417fed7b91900d45c3d",
+      "squad_1_1_571a484210f8ca1400304fbd",
+      "squad_1_1_5725b7f389a1e219009abd5c",
+      "squad_1_1_5725ce4d38643c19005acd4d",
+      "squad_1_1_572657d9dd62a815002e8230",
+      "squad_1_1_57267b755951b619008f7433",
+      "squad_1_1_5726e65e708984140094d53d"
+    ],
+    "validation": [
+      "squad_1_1_5733a5f54776f41900660f45",
+      "squad_1_1_56e16182e3433e1400422e28",
+      "squad_1_1_5705e26d75f01819005e76d4",
+      "squad_1_1_57105da9a58dae1900cd699e",
+      "squad_1_1_5725b33f6a3fe71400b8952d",
+      "squad_1_1_5725b81b271a42140099d097",
+      "squad_1_1_5725d34089a1e219009abf50",
+      "squad_1_1_5726642f5951b619008f7157",
+      "squad_1_1_57269e8a5951b619008f77f5",
+      "squad_1_1_57271c235951b619008f860b"
+    ],
+    "holdout": [
+      "squad_1_1_56ddde6b9a695914005b9628",
+      "squad_1_1_56e7477700c9c71400d76f23",
+      "squad_1_1_57092322efce8f15003a7db0",
+      "squad_1_1_57112686b654c5140001fbd3",
+      "squad_1_1_5725b41838643c19005acb7f",
+      "squad_1_1_5725b9db38643c19005acbe1",
+      "squad_1_1_57264684708984140094c123",
+      "squad_1_1_5726710b708984140094c61d",
+      "squad_1_1_5726d8bd708984140094d35b",
+      "squad_1_1_57273a465951b619008f86ff"
+    ]
+  }
+}

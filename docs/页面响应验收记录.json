@@ -1,0 +1,201 @@
+{
+  "recorded_at": "2026-10-29 09:05:29",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.13.5",
+  "question_count": 155,
+  "mode": "offscreen visible window; temporary workspace; bundled samples",
+  "note": "forced_refresh 每次调用现有 on_show；按需刷新仅在变更后调用。事件耗时不代表真实显示器绘制性能。",
+  "forced_refresh": {
+    "0": {
+      "switch_ms": {
+        "count": 3,
+        "mean_ms": 26.786,
+        "p95_ms": 32.411,
+        "max_ms": 32.411
+      },
+      "events_ms": {
+        "count": 3,
+        "mean_ms": 41.598,
+        "p95_ms": 62.009,
+        "max_ms": 62.009
+      },
+      "on_show_ms": {
+        "count": 3,
+        "mean_ms": 12.734,
+        "p95_ms": 16.36,
+        "max_ms": 16.36
+      }
+    },
+    "1": {
+      "switch_ms": {
+        "count": 3,
+        "mean_ms": 21.478,
+        "p95_ms": 31.529,
+        "max_ms": 31.529
+      },
+      "events_ms": {
+        "count": 3,
+        "mean_ms": 20.535,
+        "p95_ms": 24.941,
+        "max_ms": 24.941
+      },
+      "on_show_ms": {
+        "count": 3,
+        "mean_ms": 12.678,
+        "p95_ms": 22.643,
+        "max_ms": 22.643
+      }
+    },
+    "2": {
+      "switch_ms": {
+        "count": 3,
+        "mean_ms": 29.052,
+        "p95_ms": 37.841,
+        "max_ms": 37.841
+      },
+      "events_ms": {
+        "count": 3,
+        "mean_ms": 32.999,
+        "p95_ms": 40.175,
+        "max_ms": 40.175
+      },
+      "on_show_ms": {
+        "count": 3,
+        "mean_ms": 11.894,
+        "p95_ms": 13.251,
+        "max_ms": 13.251
+      }
+    },
+    "3": {
+      "switch_ms": {
+        "count": 3,
+        "mean_ms": 30.518,
+        "p95_ms": 39.308,
+        "max_ms": 39.308
+      },
+      "events_ms": {
+        "count": 3,
+        "mean_ms": 21.522,
+        "p95_ms": 23.127,
+        "max_ms": 23.127
+      },
+      "on_show_ms": {
+        "count": 3,
+        "mean_ms": 24.346,
+        "p95_ms": 31.946,
+        "max_ms": 31.946
+      }
+    },
+    "4": {
+      "switch_ms": {
+        "count": 3,
+        "mean_ms": 14.705,
+        "p95_ms": 17.805,
+        "max_ms": 17.805
+      },
+      "events_ms": {
+        "count": 3,
+        "mean_ms": 22.622,
+        "p95_ms": 31.537,
+        "max_ms": 31.537
+      },
+      "on_show_ms": {
+        "count": 3,
+        "mean_ms": 5.866,
+        "p95_ms": 9.132,
+        "max_ms": 9.132
+      }
+    }
+  },
+  "on_demand": {
+    "0": {
+      "switch_ms": {
+        "count": 3,
+        "mean_ms": 17.25,
+        "p95_ms": 21.255,
+        "max_ms": 21.255
+      },
+      "events_ms": {
+        "count": 3,
+        "mean_ms": 25.019,
+        "p95_ms": 29.841,
+        "max_ms": 29.841
+      },
+      "on_show_ms": {
+        "count": 0
+      }
+    },
+    "1": {
+      "switch_ms": {
+        "count": 3,
+        "mean_ms": 6.821,
+        "p95_ms": 8.047,
+        "max_ms": 8.047
+      },
+      "events_ms": {
+        "count": 3,
+        "mean_ms": 15.992,
+        "p95_ms": 19.364,
+        "max_ms": 19.364
+      },
+      "on_show_ms": {
+        "count": 0
+      }
+    },
+    "2": {
+      "switch_ms": {
+        "count": 3,
+        "mean_ms": 14.247,
+        "p95_ms": 16.079,
+        "max_ms": 16.079
+      },
+      "events_ms": {
+        "count": 3,
+        "mean_ms": 19.493,
+        "p95_ms": 22.866,
+        "max_ms": 22.866
+      },
+      "on_show_ms": {
+        "count": 0
+      }
+    },
+    "3": {
+      "switch_ms": {
+        "count": 3,
+        "mean_ms": 7.927,
+        "p95_ms": 9.42,
+        "max_ms": 9.42
+      },
+      "events_ms": {
+        "count": 3,
+        "mean_ms": 22.458,
+        "p95_ms": 29.539,
+        "max_ms": 29.539
+      },
+      "on_show_ms": {
+        "count": 0
+      }
+    },
+    "4": {
+      "switch_ms": {
+        "count": 3,
+        "mean_ms": 6.27,
+        "p95_ms": 7.404,
+        "max_ms": 7.404
+      },
+      "events_ms": {
+        "count": 3,
+        "mean_ms": 20.569,
+        "p95_ms": 29.938,
+        "max_ms": 29.938
+      },
+      "on_show_ms": {
+        "count": 0
+      }
+    }
+  },
+  "timezone": "Asia/Shanghai",
+  "load_note": "本轮未与 PyInstaller 构建并行，另有公式依赖安装及模型下载活动；不是完全空闲机器基准。",
+  "sample_note": "155条内置样例，每页每模式3次；P95为最近秩法，3个样本时等于最大值。offscreen事件处理不等同于真实显示器渲染。",
+  "comparison": "优化前同脚本记录保留在 页面响应验收记录_优化前.json；本轮新增批量填表时冻结表头自动测宽。"
+}

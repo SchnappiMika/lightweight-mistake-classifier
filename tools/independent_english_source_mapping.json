@@ -1,0 +1,12 @@
+{
+  "purpose": "Exploratory source task-to-existing-category mapping, not human-verified classification gold.",
+  "method": "The official SQuAD reading-comprehension task maps to the existing 阅读理解 category, without inspecting classifier predictions.",
+  "limitations": "Task-level mapping does not establish each question's knowledge category. Original qtype and text remain unchanged. It cannot establish original accuracy or feedback acceptance targets.",
+  "rules": [
+    {
+      "subject": "大学英语",
+      "source_labels": {"task": "reading_comprehension"},
+      "labels": {"knowledge": "阅读理解"}
+    }
+  ]
+}

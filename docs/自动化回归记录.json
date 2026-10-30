@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-30",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+  "command": "python -m pytest tests -q --junitxml=.pytest_cache/after_media_fix.xml",
+  "passed": 826,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "warnings": 1,
+  "elapsed_seconds": 232.13,
+  "junit_elapsed_seconds": 231.69,
+  "started_at": "2026-10-30T12:26:29+08:00",
+  "load_note": "本机顺序执行，无并行构建负载；耗时含全部用例，不作为性能基准",
+  "warning_note": "唯一的警告为既有 PytestRemovedIn10Warning（tests/test_classify.py 类级夹具写法），不是失败",
+  "junit": "自动化回归记录.xml",
+  "change_note": "本轮新增 1 项：图片批量识别改为一图一进程（tests/test_media_session.py）。825 → 826。",
+  "history": [
+    {"date": "2026-10-27", "passed": 209},
+    {"date": "2026-10-28", "passed": 235},
+    {"date": "2026-10-29", "passed": 348},
+    {"date": "2026-10-30", "passed": 825},
+    {"date": "2026-10-30 媒体修复后", "passed": 826}
+  ]
+}

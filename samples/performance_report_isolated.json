@@ -1,0 +1,408 @@
+{
+  "generated_at": "2026-10-29T01:18:35.528333+00:00",
+  "environment_before": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+    "machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+    "cpu_count": 12,
+    "load_average": null,
+    "system_cpu_percent": null,
+    "system_cpu_percent_window_seconds": null,
+    "load_limitations": "运行负载快照不能保证机器空闲；请结束构建等竞争任务后测量。 psutil 不可用时系统 CPU 占用和内存不记录。",
+    "package_versions": {
+      "jieba": "0.42.1",
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "scikit-learn": "1.9.1",
+      "rapidocr": "3.10.0",
+      "onnxruntime": "1.31.1",
+      "faster-whisper": "1.2.1",
+      "av": "19.0.2",
+      "psutil": null
+    }
+  },
+  "environment_after": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+    "machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+    "cpu_count": 12,
+    "load_average": null,
+    "system_cpu_percent": null,
+    "system_cpu_percent_window_seconds": null,
+    "load_limitations": "运行负载快照不能保证机器空闲；请结束构建等竞争任务后测量。 psutil 不可用时系统 CPU 占用和内存不记录。",
+    "package_versions": {
+      "jieba": "0.42.1",
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "scikit-learn": "1.9.1",
+      "rapidocr": "3.10.0",
+      "onnxruntime": "1.31.1",
+      "faster-whisper": "1.2.1",
+      "av": "19.0.2",
+      "psutil": null
+    }
+  },
+  "load_note": "PyInstaller构建、完整回归、发布包冒烟和公式验证均已结束；无其它已知开发重负载，系统占用见快照",
+  "workspace_isolated": true,
+  "workspace_deleted_after_run": true,
+  "dataset": "固定内置高数体系与单条文本重复测量，不估计分类泛化准确率",
+  "text_classification": {
+    "count": 20,
+    "mean_ms": 9.472120003192686,
+    "p95_ms": 11.293100018519908,
+    "min_ms": 8.353999990504235,
+    "max_ms": 12.274200009414926,
+    "attempted": 20,
+    "successful": 20,
+    "failures": 0,
+    "module_import_ms": 2433.0704000021797,
+    "initialization_ms": 1.6583000251557678,
+    "cold_first_call": {
+      "status": "classified",
+      "error": "",
+      "wall_elapsed_ms": 1349.6389999927487
+    },
+    "warm_calls": [
+      {
+        "status": "classified",
+        "error": "",
+        "wall_elapsed_ms": 11.062700010370463
+      },
+      {
+        "status": "classified",
+        "error": "",
+        "wall_elapsed_ms": 9.358400013297796
+      },
+      {
+        "status": "classified",
+        "error": "",
+        "wall_elapsed_ms": 8.375799981877208
+      },
+      {
+        "status": "classified",
+        "error": "",
+        "wall_elapsed_ms": 8.650800009490922
+      },
+      {
+        "status": "classified",
+        "error": "",
+        "wall_elapsed_ms": 8.844099997077137
+      },
+      {
+        "status": "classified",
+        "error": "",
+        "wall_elapsed_ms": 10.262600000714883
+      },
+      {
+        "status": "classified",
+        "error": "",
+        "wall_elapsed_ms": 10.00229999772273
+      },
+      {
+        "status": "classified",
+        "error": "",
+        "wall_elapsed_ms": 9.988400008296594
+      },
+      {
+        "status": "classified",
+        "error": "",
+        "wall_elapsed_ms": 8.58290001633577
+      },
+      {
+        "status": "classified",
+        "error": "",
+        "wall_elapsed_ms": 8.459600008791313
+      },
+      {
+        "status": "classified",
+        "error": "",
+        "wall_elapsed_ms": 8.353999990504235
+      },
+      {
+        "status": "classified",
+        "error": "",
+        "wall_elapsed_ms": 9.15469997562468
+      },
+      {
+        "status": "classified",
+        "error": "",
+        "wall_elapsed_ms": 9.24670000676997
+      },
+      {
+        "status": "classified",
+        "error": "",
+        "wall_elapsed_ms": 8.747999992920086
+      },
+      {
+        "status": "classified",
+        "error": "",
+        "wall_elapsed_ms": 8.73260002117604
+      },
+      {
+        "status": "classified",
+        "error": "",
+        "wall_elapsed_ms": 12.274200009414926
+      },
+      {
+        "status": "classified",
+        "error": "",
+        "wall_elapsed_ms": 9.73270001122728
+      },
+      {
+        "status": "classified",
+        "error": "",
+        "wall_elapsed_ms": 8.359900006325915
+      },
+      {
+        "status": "classified",
+        "error": "",
+        "wall_elapsed_ms": 9.958899987395853
+      },
+      {
+        "status": "classified",
+        "error": "",
+        "wall_elapsed_ms": 11.293100018519908
+      }
+    ],
+    "cold_total_inside_worker_ms": 3784.367700020084,
+    "builtin_scheme_id": "sc_a06f6ab653",
+    "builtin_scheme_sha256": "d6e153fce758b684cc39c0322596684b6dc1b0257015105a38696f849d0ac366",
+    "question": "求函数在区间上的定积分并判断收敛性",
+    "initialization_scope": "模块导入单列；初始化为读取内置体系与构造引擎，首次调用含分词和惰性建库。",
+    "timing_scope": "热态为同一题预处理+分类，包括失败耗时；不含导入、保存、重启、导出或人工操作。",
+    "accuracy_claim": false,
+    "worker_wall_ms": 3974.9651000020094,
+    "worker_cpu_ms": 2828.125,
+    "environment_before": {
+      "platform": "Windows-11-10.0.26200-SP0",
+      "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+      "cpu_count": 12,
+      "load_average": null,
+      "system_cpu_percent": null,
+      "system_cpu_percent_window_seconds": null,
+      "load_limitations": "运行负载快照不能保证机器空闲；请结束构建等竞争任务后测量。 psutil 不可用时系统 CPU 占用和内存不记录。",
+      "package_versions": {
+        "jieba": "0.42.1",
+        "numpy": "2.5.4",
+        "scipy": "1.18.1",
+        "scikit-learn": "1.9.1",
+        "rapidocr": "3.10.0",
+        "onnxruntime": "1.31.1",
+        "faster-whisper": "1.2.1",
+        "av": "19.0.2",
+        "psutil": null
+      }
+    },
+    "environment_after": {
+      "platform": "Windows-11-10.0.26200-SP0",
+      "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+      "cpu_count": 12,
+      "load_average": null,
+      "system_cpu_percent": null,
+      "system_cpu_percent_window_seconds": null,
+      "load_limitations": "运行负载快照不能保证机器空闲；请结束构建等竞争任务后测量。 psutil 不可用时系统 CPU 占用和内存不记录。",
+      "package_versions": {
+        "jieba": "0.42.1",
+        "numpy": "2.5.4",
+        "scipy": "1.18.1",
+        "scikit-learn": "1.9.1",
+        "rapidocr": "3.10.0",
+        "onnxruntime": "1.31.1",
+        "faster-whisper": "1.2.1",
+        "av": "19.0.2",
+        "psutil": null
+      }
+    },
+    "workspace": "C:\\Users\\Schnappi SaMa\\AppData\\Local\\Temp\\mc_perf_fl1qajgh\\worker_jhgc50kp",
+    "returncode": 0,
+    "subprocess_wall_ms": 4841.825800016522,
+    "workspace_was_empty_at_start": true,
+    "reused_model_directory": null,
+    "workspace_deleted_after_run": true
+  },
+  "public_media": {
+    "manifest": "D:\\桌面\\校创\\mistake_classifier\\samples\\public_acceptance\\manifest.json",
+    "manifest_sha256": "2405559d9eb09241d748950db60995b7773fd5fd4c0de3cb14568c8147321420",
+    "recognized": 5,
+    "total": 5,
+    "failures": 0,
+    "per_item": {
+      "count": 5,
+      "mean_ms": 14997.413339995546,
+      "p95_ms": 33711.252399982186,
+      "min_ms": 4228.048299992224,
+      "max_ms": 33711.252399982186,
+      "attempted": 5,
+      "successful": 5,
+      "failures": 0
+    },
+    "items_without_wall_timing": 0,
+    "batch_wall_ms": 75699.69509998919,
+    "batch_wall_ms_per_manifest_item": 15139.939019997837,
+    "timing_scope": "公开素材校验和识别调用；子进程总耗时另含解释器与模块加载。不含完整导入、分类、保存、重启、导出和人工校对，不能证明全流程一秒达标。",
+    "per_item_timing_note": "逐条耗时摘要只使用实际计时，缺失不填零；成功率及批次平均分母包含失败和缺失素材。",
+    "results": [
+      {
+        "id": "formula_center_of_mass",
+        "subject": "高等数学",
+        "qtype": "formula",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Center_of_mass_using_integral.png",
+        "license": "CC BY-SA 4.0",
+        "local_path": "samples\\public_acceptance\\media\\formula_center_of_mass.png",
+        "status": "recognized",
+        "error": "",
+        "review_status": "待人工复核",
+        "sha256": "1471411eb9f98199ae7b46b2bc521a02ee46d4eb2997206f74e14eaa10d2ec30",
+        "text": "\\begin{array}{c}{{\\phi^{\\dagger}\\int_{a}^{\\dagger}\\int_{a}^{\\dagger}\\int_{a}^{\\dagger}\\int_{a\\not=b}^{\\infty}\\displaystyle\\frac{}{}}}\\\\ {{\\mathrm{}{}^{\\dagger}\\frac{\\left\\Vert s_{\\dagger}\\right\\Vert}{\\hbar_{a}^{\\dagger}\\left\\Vert s_{\\dagger}k\\right\\rangle}\\displaystyle\\left\\langle\\begin{array}{c}{{}}\\\\ {{}}\\\\ {{}}\\\\ {{}}\\\\ {{\\mathrm{}=\\langle\\not=\\mathrm{{}}d\\Omega}}\\end{array}\\right|}}\\end{array}",
+        "latex": "\\begin{array}{c}{{\\phi^{\\dagger}\\int_{a}^{\\dagger}\\int_{a}^{\\dagger}\\int_{a}^{\\dagger}\\int_{a\\not=b}^{\\infty}\\displaystyle\\frac{}{}}}\\\\ {{\\mathrm{}{}^{\\dagger}\\frac{\\left\\Vert s_{\\dagger}\\right\\Vert}{\\hbar_{a}^{\\dagger}\\left\\Vert s_{\\dagger}k\\right\\rangle}\\displaystyle\\left\\langle\\begin{array}{c}{{}}\\\\ {{}}\\\\ {{}}\\\\ {{}}\\\\ {{\\mathrm{}=\\langle\\not=\\mathrm{{}}d\\Omega}}\\end{array}\\right|}}\\end{array}",
+        "engine": "pix2tex",
+        "elapsed_ms": 33710.96950001083,
+        "wall_elapsed_ms": 33711.252399982186
+      },
+      {
+        "id": "formula_leibniz_notation",
+        "subject": "高等数学",
+        "qtype": "formula",
+        "source_url": "https://commons.wikimedia.org/wiki/File:LeibnizNotation.png",
+        "license": "CC BY-SA 4.0",
+        "local_path": "samples\\public_acceptance\\media\\formula_leibniz_notation.png",
+        "status": "recognized",
+        "error": "",
+        "review_status": "待人工复核",
+        "sha256": "f39607d82117c13123dede2ca19ce638c8225f29db66043ed7d2fd70ce491ca5",
+        "text": "\\frac{d x}{d y}\\qquad\\frac{d^{2}y}{d x^{2}}",
+        "latex": "\\frac{d x}{d y}\\qquad\\frac{d^{2}y}{d x^{2}}",
+        "engine": "pix2tex",
+        "elapsed_ms": 20678.260200016666,
+        "wall_elapsed_ms": 20680.053399992175
+      },
+      {
+        "id": "figure_intro_physics_42",
+        "subject": "大学物理",
+        "qtype": "figure",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Introductory_Physics_fig_4.2.png",
+        "license": "CC BY-SA 3.0",
+        "local_path": "samples\\public_acceptance\\media\\figure_1.png",
+        "status": "recognized",
+        "error": "",
+        "review_status": "待人工复核",
+        "sha256": "5851e6955d7f61e6293bd54e9345fc3b3c1b7e7036fbd4b4e8ad696a74b6c3d2",
+        "text": "Δ t\nt⁵\nΔ t’\nprimed coord\nsys moving\nunprimed coord\nsys moving at\nspeed U\nat\nspeed -U\nworld line of object\nworld line of object\nmoving at speed\nmoving at speed v\nv' = ν - U\nx, x'\nx, x'\n2_\n2",
+        "engine": "RapidOCR",
+        "line_count": 19,
+        "elapsed_ms": 4434.47050001123,
+        "wall_elapsed_ms": 5049.180100002559
+      },
+      {
+        "id": "figure_reflection_boundary",
+        "subject": "大学物理",
+        "qtype": "figure",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Eight_Lectures_on_Theoretical_Physics_illo085.png",
+        "license": "Public domain",
+        "local_path": "samples\\public_acceptance\\media\\figure_2.png",
+        "status": "recognized",
+        "error": "",
+        "review_status": "待人工复核",
+        "sha256": "f0388d26c88c34f8c8778426460f3ccf30507ed118dbb7b55b9a0df1622a2c6d",
+        "text": "FIRST MEDIUM\nRν\ndΩ\ndΩ\n6\n6\n-BOUNDARY SURFACE\n0\n8ECONDMEDIUM\nRv'\ndΩ'\nFig. 1.",
+        "engine": "RapidOCR",
+        "line_count": 12,
+        "elapsed_ms": 3641.257899987977,
+        "wall_elapsed_ms": 4228.048299992224
+      },
+      {
+        "id": "audio_dunkley_snippet",
+        "subject": "大学英语",
+        "qtype": "listening",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Audio_snippet_of_J._R._Dunkley.wav",
+        "license": "CC BY-SA 4.0",
+        "local_path": "samples\\public_acceptance\\media\\audio_dunkley_snippet.wav",
+        "status": "recognized",
+        "error": "",
+        "review_status": "待人工复核",
+        "sha256": "f2977416827d08bac56ee9d0cde47cb130b9d594cd6aa23e44cacbab3fcc1dbe",
+        "duration_seconds": 31.880997732426305,
+        "sample_rate": 44100,
+        "channels": 1,
+        "engine": "faster-whisper",
+        "transcript": "Suppose that the reversible part of the generator is rapidly pumping fluctuations into a particular mode family. For example, by parametric driving or coupling to an external source, the dissipative part, G, governs the actual relaxation and information received in that channel. The rate at which the fluctuations are converted into received information is then controlled by the Fisher spectral density and obeys the early time power law. In that sense, the spectral tail is a fingerprint of how efficiently source information is transferred into data information in a given",
+        "elapsed_ms": 11313.34120000247,
+        "wall_elapsed_ms": 11318.532500008587
+      }
+    ],
+    "manifest_count": 5,
+    "module_import_ms": 4.624699999112636,
+    "phase_note": "新媒体子进程为进程冷态，不代表磁盘缓存冷态；后续模型复用由识别引擎决定，未分解模型加载与推理。",
+    "worker_wall_ms": 75027.19920000527,
+    "worker_cpu_ms": 19140.625,
+    "environment_before": {
+      "platform": "Windows-11-10.0.26200-SP0",
+      "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+      "cpu_count": 12,
+      "load_average": null,
+      "system_cpu_percent": null,
+      "system_cpu_percent_window_seconds": null,
+      "load_limitations": "运行负载快照不能保证机器空闲；请结束构建等竞争任务后测量。 psutil 不可用时系统 CPU 占用和内存不记录。",
+      "package_versions": {
+        "jieba": "0.42.1",
+        "numpy": "2.5.4",
+        "scipy": "1.18.1",
+        "scikit-learn": "1.9.1",
+        "rapidocr": "3.10.0",
+        "onnxruntime": "1.31.1",
+        "faster-whisper": "1.2.1",
+        "av": "19.0.2",
+        "psutil": null
+      }
+    },
+    "environment_after": {
+      "platform": "Windows-11-10.0.26200-SP0",
+      "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+      "cpu_count": 12,
+      "load_average": null,
+      "system_cpu_percent": null,
+      "system_cpu_percent_window_seconds": null,
+      "load_limitations": "运行负载快照不能保证机器空闲；请结束构建等竞争任务后测量。 psutil 不可用时系统 CPU 占用和内存不记录。",
+      "package_versions": {
+        "jieba": "0.42.1",
+        "numpy": "2.5.4",
+        "scipy": "1.18.1",
+        "scikit-learn": "1.9.1",
+        "rapidocr": "3.10.0",
+        "onnxruntime": "1.31.1",
+        "faster-whisper": "1.2.1",
+        "av": "19.0.2",
+        "psutil": null
+      }
+    },
+    "workspace": "C:\\Users\\Schnappi SaMa\\AppData\\Local\\Temp\\mc_perf_fl1qajgh\\worker_rlj1atc4",
+    "returncode": 0,
+    "subprocess_wall_ms": 75699.69509998919,
+    "workspace_was_empty_at_start": true,
+    "reused_model_directory": "C:\\Users\\Schnappi SaMa\\.mistake_classifier\\models",
+    "workspace_deleted_after_run": true
+  },
+  "historical_reports": [
+    {
+      "path": "D:\\桌面\\校创\\mistake_classifier\\samples\\performance_report.json",
+      "status": "historical_non_baseline",
+      "reason": "旧记录可能与发布构建并行，负载未隔离；保留原文件，不用作性能基准。"
+    }
+  ],
+  "interpretation": {
+    "scope_warning": "公开素材校验和识别调用；子进程总耗时另含解释器与模块加载。不含完整导入、分类、保存、重启、导出和人工校对，不能证明全流程一秒达标。",
+    "cold_definition": "新解释器和空工作区；不清除操作系统文件缓存，不代表机器重启冷态。",
+    "model_reuse": "MC_MODEL_DIR 指定已有本地模型，运行期不准备或下载模型；不复用用户题库、设置或学习数据。",
+    "load_warning": "即使工作区隔离，也应在构建和其他高负载任务停止后重测；本工具不清理系统缓存或控制其他进程。"
+  }
+}

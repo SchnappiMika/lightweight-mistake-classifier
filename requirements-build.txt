@@ -1,0 +1,3 @@
+# Build tool versions used by the local Windows release build.
+pyinstaller==6.22.3
+pyinstaller-hooks-contrib==2026.9

@@ -1,0 +1,121 @@
+{
+  "generated_at": "2026-10-28T17:24:42+0800",
+  "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+  "text_classification": {
+    "count": 5,
+    "mean_ms": 16.629619998275302,
+    "p95_ms": 17.62349999626167,
+    "min_ms": 14.54350000130944,
+    "max_ms": 17.62349999626167
+  },
+  "public_media": {
+    "manifest": "samples\\public_acceptance\\manifest.json",
+    "batch_wall_ms": 42389.336799999,
+    "recognized": 5,
+    "total": 5,
+    "per_item": {
+      "count": 5,
+      "mean_ms": 8475.567380001303,
+      "p95_ms": 14281.76510000776,
+      "min_ms": 3133.4574000065913,
+      "max_ms": 14281.76510000776
+    },
+    "results": [
+      {
+        "id": "formula_center_of_mass",
+        "subject": "高等数学",
+        "qtype": "formula",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Center_of_mass_using_integral.png",
+        "license": "CC BY-SA 4.0",
+        "local_path": "samples\\public_acceptance\\media\\formula_center_of_mass.png",
+        "status": "recognized",
+        "error": "",
+        "review_status": "待人工复核",
+        "sha256": "1471411eb9f98199ae7b46b2bc521a02ee46d4eb2997206f74e14eaa10d2ec30",
+        "text": "S =\nf(x)dx\na\n1\nxf(x) dx\n1\nf2(x) dx\n=f\n2S\n• [xT, YT]\nx\na\nb",
+        "engine": "RapidOCR",
+        "line_count": 13,
+        "elapsed_ms": 8788.729899999453,
+        "wall_elapsed_ms": 9242.546399997082
+      },
+      {
+        "id": "formula_leibniz_notation",
+        "subject": "高等数学",
+        "qtype": "formula",
+        "source_url": "https://commons.wikimedia.org/wiki/File:LeibnizNotation.png",
+        "license": "CC BY-SA 4.0",
+        "local_path": "samples\\public_acceptance\\media\\formula_leibniz_notation.png",
+        "status": "recognized",
+        "error": "",
+        "review_status": "待人工复核",
+        "sha256": "f39607d82117c13123dede2ca19ce638c8225f29db66043ed7d2fd70ce491ca5",
+        "text": "d²y\ndx\ndy\ndx2",
+        "engine": "RapidOCR",
+        "line_count": 4,
+        "elapsed_ms": 2722.083999993629,
+        "wall_elapsed_ms": 3133.4574000065913
+      },
+      {
+        "id": "figure_intro_physics_42",
+        "subject": "大学物理",
+        "qtype": "figure",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Introductory_Physics_fig_4.2.png",
+        "license": "CC BY-SA 3.0",
+        "local_path": "samples\\public_acceptance\\media\\figure_1.png",
+        "status": "recognized",
+        "error": "",
+        "review_status": "待人工复核",
+        "sha256": "5851e6955d7f61e6293bd54e9345fc3b3c1b7e7036fbd4b4e8ad696a74b6c3d2",
+        "text": "Δ t\nt⁵\nΔ t’\nprimed coord\nsys moving\nunprimed coord\nsys moving at\nspeed U\nat\nspeed -U\nworld line of object\nworld line of object\nmoving at speed\nmoving at speed v\nv' = ν - U\nx, x'\nx, x'\n2_\n2",
+        "engine": "RapidOCR",
+        "line_count": 19,
+        "elapsed_ms": 6900.9425999975065,
+        "wall_elapsed_ms": 7496.381699995254
+      },
+      {
+        "id": "figure_reflection_boundary",
+        "subject": "大学物理",
+        "qtype": "figure",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Eight_Lectures_on_Theoretical_Physics_illo085.png",
+        "license": "Public domain",
+        "local_path": "samples\\public_acceptance\\media\\figure_2.png",
+        "status": "recognized",
+        "error": "",
+        "review_status": "待人工复核",
+        "sha256": "f0388d26c88c34f8c8778426460f3ccf30507ed118dbb7b55b9a0df1622a2c6d",
+        "text": "FIRST MEDIUM\nRν\ndΩ\ndΩ\n6\n6\n-BOUNDARY SURFACE\n0\n8ECONDMEDIUM\nRv'\ndΩ'\nFig. 1.",
+        "engine": "RapidOCR",
+        "line_count": 12,
+        "elapsed_ms": 7610.3979999898,
+        "wall_elapsed_ms": 8223.686299999827
+      },
+      {
+        "id": "audio_dunkley_snippet",
+        "subject": "大学英语",
+        "qtype": "listening",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Audio_snippet_of_J._R._Dunkley.wav",
+        "license": "CC BY-SA 4.0",
+        "local_path": "samples\\public_acceptance\\media\\audio_dunkley_snippet.wav",
+        "status": "recognized",
+        "error": "",
+        "review_status": "待人工复核",
+        "sha256": "f2977416827d08bac56ee9d0cde47cb130b9d594cd6aa23e44cacbab3fcc1dbe",
+        "duration_seconds": 31.880997732426305,
+        "sample_rate": 44100,
+        "channels": 1,
+        "engine": "faster-whisper",
+        "transcript": "Suppose that the reversible part of the generator is rapidly pumping fluctuations into a particular mode family. For example, by parametric driving or coupling to an external source, the dissipative part, G, governs the actual relaxation and information received in that channel. The rate at which the fluctuations are converted into received information is then controlled by the Fisher spectral density and obeys the early time power law. In that sense, the spectral tail is a fingerprint of how efficiently source information is transferred into data information in a given",
+        "elapsed_ms": 14273.797400004696,
+        "wall_elapsed_ms": 14281.76510000776
+      }
+    ]
+  },
+  "interpretation": {
+    "automatic_time_excludes": [
+      "人工校对",
+      "文件选择",
+      "学生操作"
+    ],
+    "warning": "公开素材的知识点和核心特征仍需人工复核，不能直接作为分类准确率。"
+  }
+}

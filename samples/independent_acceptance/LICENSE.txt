@@ -1,0 +1,7 @@
+Collected OpenStax textbook content: Copyright Rice University / OpenStax.
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International.
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+Attribution and original URLs are retained per question and raw source page.
+This license applies to the collected textbook corpus, not to the application source code.
+Exercise wording is unchanged apart from whitespace normalization and structural MathML transcription.
+No endorsement by OpenStax or Rice University is implied.

@@ -1,0 +1,12 @@
+{
+  "text": "\\frac{d x}{d y}\\qquad\\frac{d^{2}y}{d x^{2}}",
+  "draft": "\\frac{d x}{d y}\\qquad\\frac{d^{2}y}{d x^{2}}",
+  "media_hash": "f39607d82117c13123dede2ca19ce638c8225f29db66043ed7d2fd70ce491ca5",
+  "engine": "pix2tex 0.1.4 / CPU",
+  "elapsed_ms": 24020.278899988625,
+  "confirmed": false,
+  "created_at": 1793236272.230998,
+  "error": "",
+  "applied_text": "",
+  "review_status": "待人工复核"
+}

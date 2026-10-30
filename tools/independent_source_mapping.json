@@ -1,0 +1,13 @@
+{
+  "purpose": "Exploratory chapter-to-existing-category mapping; these are source-derived labels, not human-verified per-question gold.",
+  "method": "Chapter semantics mapped before reading classifier predictions. Source questions and application rules remain unchanged.",
+  "limitations": "A chapter may include cross-topic exercises. This mapping cannot establish original acceptance accuracy or feedback improvement targets.",
+  "rules": [
+    {"subject": "高等数学", "source_labels": {"chapter": "2 Limits"}, "labels": {"knowledge": "函数与极限"}},
+    {"subject": "高等数学", "source_labels": {"chapter": "3 Derivatives"}, "labels": {"knowledge": "导数与微分"}},
+    {"subject": "高等数学", "source_labels": {"chapter": "5 Integration"}, "labels": {"knowledge": "定积分及其应用"}},
+    {"subject": "大学物理", "source_labels": {"chapter": "3 Motion Along a Straight Line"}, "labels": {"knowledge": "质点运动学"}},
+    {"subject": "大学物理", "source_labels": {"chapter": "5 Newton's Laws of Motion"}, "labels": {"knowledge": "牛顿定律与动量"}},
+    {"subject": "大学物理", "source_labels": {"chapter": "8 Potential Energy and Conservation of Energy"}, "labels": {"knowledge": "功和能"}}
+  ]
+}
